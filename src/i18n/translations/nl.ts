@@ -43,7 +43,7 @@ export const nl = {
     },
     values: {
       team: { title: "Begeleidingsteam", description: "Onze \"Begeleidsters\" begeleiden en vormen voortdurend onze huishoudhulpen." },
-      training: { title: "Continue opleiding", description: "Elke huishoudhulp wordt opgeleid voordat ze alleen werkt en wordt het hele jaar gevolgd." },
+      training: { title: "Continue opleiding", description: "Elke huishoudhulp krijgt een opleiding bij indiensttreding en volgt vervolgens meerdere externe opleidingsmodules per jaar, aangevuld met de begeleiding van onze interne coaches." },
       personalized: { title: "Persoonlijke aanpak", description: "Wij nemen de tijd om u te ontmoeten en uw specifieke behoeften te begrijpen." },
       local: { title: "Lokale verankering", description: "Aanwezig in Groot-Charleroi, Thuin, Nijvel, Binche en vele andere gemeenten." },
     },
