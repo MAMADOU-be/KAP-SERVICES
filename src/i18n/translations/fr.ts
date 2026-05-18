@@ -14,7 +14,7 @@ export const fr = {
     logout: "Déconnexion",
     myAccount: "Mon compte",
     requestQuote: "Demander un devis",
-    subtitle: "Titres-services agréés",
+    subtitle: "Entreprise agréée titres-services",
   },
 
   // Hero
