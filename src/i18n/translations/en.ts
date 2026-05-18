@@ -13,7 +13,7 @@ export const en = {
     logout: "Log out",
     myAccount: "My account",
     requestQuote: "Request a quote",
-    subtitle: "Approved service vouchers",
+    subtitle: "Approved service voucher company",
   },
 
   hero: {
