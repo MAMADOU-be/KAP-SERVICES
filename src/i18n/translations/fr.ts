@@ -19,11 +19,11 @@ export const fr = {
 
   // Hero
   hero: {
-    badge: "Société agréée titres-services",
+    badge: "Entreprise agréée titres-services",
     title: "Aide ménagère & repassage,",
     titleHighlight: "à votre service",
-    description: "Kap Services est votre agence de titres-services de confiance en Belgique. Nos femmes de ménage agréées assurent un entretien complet de votre domicile : nettoyage, repassage, organisation. Profitez des titres-services pour seulement",
-    priceHighlight: "9€ après déduction fiscale",
+    description: "Kap Services est votre entreprise agréée titres-services de confiance en Belgique. Nos aides-ménagères assurent un entretien complet de votre domicile : nettoyage, repassage, organisation. Profitez des titres-services à partir de",
+    priceHighlight: "9,50€/h après déduction fiscale",
     ctaPrimary: "Demander une aide-ménagère",
     ctaSecondary: "Nous recrutons",
     trustDeclared: "Personnel déclaré",
