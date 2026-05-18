@@ -37,7 +37,7 @@ export const fr = {
   about: {
     badge: "Notre histoire",
     title: "Qui sommes-nous ?",
-    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Agence titres-services agréée par la Région Wallonne, nous offrons des services professionnels d'aide ménagère à domicile et de repassage, avec un personnel qualifié et discret.",
+    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Entreprise agréée titres-services par la Région Wallonne, nous offrons des services professionnels d'aide ménagère à domicile et de repassage, avec un personnel qualifié et discret.",
     timeline: {
       t2008: { title: "Création", description: "Naissance de Kap-Services SPRL, continuité de l'activité du membre fondateur." },
       t2012: { title: "Expansion", description: "Achat du bâtiment du siège administratif et agrandissement des bureaux." },
