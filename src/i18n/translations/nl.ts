@@ -34,7 +34,7 @@ export const nl = {
   about: {
     badge: "Ons verhaal",
     title: "Wie zijn wij?",
-    description: "Sinds 2008 is Kap Services uw betrouwbare partner voor een schoon en georganiseerd interieur. Als erkend dienstenchequebedrijf door het Waalse Gewest bieden wij professionele huishoudelijke hulp en strijkdiensten aan huis, met gekwalificeerd en discreet personeel.",
+    description: "Sinds 2008 is Kap Services uw betrouwbare partner voor een schoon en georganiseerd interieur. Erkend dienstenchequebedrijf door het Waalse Gewest, bieden wij professionele huishoudelijke hulp en strijkdiensten aan huis, met gekwalificeerd en discreet personeel.",
     timeline: {
       t2008: { title: "Oprichting", description: "Oprichting van Kap-Services BVBA, voortzetting van de activiteiten van het stichtend lid." },
       t2012: { title: "Uitbreiding", description: "Aankoop van het gebouw van het administratief hoofdkantoor en uitbreiding van de kantoren." },
