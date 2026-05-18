@@ -46,7 +46,7 @@ export const fr = {
     },
     values: {
       team: { title: "Équipe d'encadrement", description: "Nos \"Encadrantes\" supervisent et forment continuellement nos aides-ménagères." },
-      training: { title: "Formation continue", description: "Chaque aide-ménagère est formée avant d'intervenir seule et suivie tout au long de l'année." },
+      training: { title: "Formation continue", description: "Chaque aide-ménagère est formée à son entrée en service puis suit plusieurs modules de formation externes par an, complétés par l'accompagnement de nos coaches internes." },
       personalized: { title: "Approche personnalisée", description: "Nous prenons le temps de vous rencontrer pour comprendre vos besoins spécifiques." },
       local: { title: "Ancrage local", description: "Présents dans le Grand Charleroi, Thuin, Nivelles, Binche et bien d'autres communes." },
     },
