@@ -117,7 +117,7 @@ export const en = {
       s1: { title: "Register on Pluxee", description: "Free registration on your region's platform to get your service vouchers." },
       s2: { title: "Contact us", description: "Call us at 071 84 01 84 or fill in our request form." },
       s3: { title: "Meet your housekeeper", description: "Our supervisors select a housekeeper suited to your needs." },
-      s4: { title: "Pay simply", description: "1 voucher = 1 hour. Only €9 after tax deduction for the first 150!" },
+      s4: { title: "Pay simply", description: "1 voucher = 1 hour. From €9.50 after tax deduction (first 150 vouchers)." },
     },
     registerTitle: "Register on Pluxee (free)",
     regions: { wallonia: "Wallonia", brussels: "Brussels-Capital", flanders: "Flanders" },
