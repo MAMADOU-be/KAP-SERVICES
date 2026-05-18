@@ -158,17 +158,17 @@ export function HowItWorks() {
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">{t.howItWorks.pricing.individual}</h4>
                     <ul className="space-y-1">
-                      <li>• 1-175 titres : 10€</li>
-                      <li>• 176-400 titres : 11€</li>
-                      <li>• 401-500 titres : 12€</li>
+                      <li>• 1-175 titres : 10,40€</li>
+                      <li>• 176-400 titres : 11,40€</li>
+                      <li>• 401-500 titres : 12,40€</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">{t.howItWorks.pricing.household}</h4>
                     <ul className="space-y-1">
-                      <li>• 1-350 titres : 10€</li>
-                      <li>• 351-800 titres : 11€</li>
-                      <li>• 801-1000 titres : 12€</li>
+                      <li>• 1-350 titres : 10,40€</li>
+                      <li>• 351-800 titres : 11,40€</li>
+                      <li>• 801-1000 titres : 12,40€</li>
                     </ul>
                   </div>
                 </div>
