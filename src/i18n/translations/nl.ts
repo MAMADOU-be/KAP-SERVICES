@@ -117,7 +117,7 @@ export const nl = {
       s1: { title: "Schrijf u in bij Pluxee", description: "Gratis inschrijving op het platform van uw regio om uw dienstencheques te verkrijgen." },
       s2: { title: "Contacteer ons", description: "Bel ons op 071 84 01 84 of vul ons aanvraagformulier in." },
       s3: { title: "Ontmoet uw huishoudhulp", description: "Onze begeleidsters selecteren een huishoudhulp aangepast aan uw behoeften." },
-      s4: { title: "Betaal eenvoudig", description: "1 cheque = 1 uur. Slechts 9€ na belastingaftrek voor de eerste 150!" },
+      s4: { title: "Betaal eenvoudig", description: "1 cheque = 1 uur. Vanaf 9,50€ na belastingaftrek (eerste 150 cheques)." },
     },
     registerTitle: "Schrijf u in bij Pluxee (gratis)",
     regions: { wallonia: "Wallonië", brussels: "Brussel-Hoofdstad", flanders: "Vlaanderen" },
