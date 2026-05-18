@@ -151,7 +151,7 @@ export const fr = {
     special: {
       title: "Quotas spéciaux (2000 titres/an)",
       description: "Certaines catégories peuvent commander jusqu'à",
-      descriptionBold: "2000 titres-services à 10€/an",
+      descriptionBold: "2000 titres-services par an",
       items: [
         "Familles monoparentales (déclaration sur l'honneur requise)",
         "Personnes handicapées",
