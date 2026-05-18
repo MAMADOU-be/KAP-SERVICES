@@ -146,7 +146,7 @@ export const en = {
     special: {
       title: "Special quotas (2000 vouchers/year)",
       description: "Certain categories can order up to",
-      descriptionBold: "2000 service vouchers at €10/year",
+      descriptionBold: "2000 service vouchers per year",
       items: [
         "Single-parent families (sworn declaration required)",
         "Persons with disabilities",
