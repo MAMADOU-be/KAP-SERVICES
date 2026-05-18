@@ -172,7 +172,7 @@ export const nl = {
       forYou: "✨ Voordelen voor u",
       forWorker: "💼 Voordelen voor de werknemer",
       userItems: [
-        "Belastingaftrek van 10% op de eerste 150 cheques",
+        "Belastingaftrek van 0,90€ per cheque, op de eerste 150",
         "Werknemer verzekerd bij ongeval",
         "Geen contract vereist van uw kant",
       ],
