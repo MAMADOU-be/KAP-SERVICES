@@ -146,7 +146,7 @@ export const nl = {
     special: {
       title: "Speciale quota's (2000 cheques/jaar)",
       description: "Bepaalde categorieën kunnen tot",
-      descriptionBold: "2000 dienstencheques à 10€/jaar",
+      descriptionBold: "2000 dienstencheques per jaar",
       items: [
         "Eenoudergezinnen (verklaring op eer vereist)",
         "Personen met een handicap",
