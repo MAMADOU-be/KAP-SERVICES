@@ -43,7 +43,7 @@ export const en = {
     },
     values: {
       team: { title: "Supervision team", description: "Our \"Supervisors\" continuously oversee and train our housekeepers." },
-      training: { title: "Ongoing training", description: "Every housekeeper is trained before working alone and monitored throughout the year." },
+      training: { title: "Ongoing training", description: "Every housekeeper receives initial training upon hiring and then attends several external training modules per year, supported by our internal coaches." },
       personalized: { title: "Personalised approach", description: "We take the time to meet you and understand your specific needs." },
       local: { title: "Local presence", description: "Present in Greater Charleroi, Thuin, Nivelles, Binche and many other municipalities." },
     },
