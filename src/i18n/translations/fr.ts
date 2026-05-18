@@ -122,7 +122,7 @@ export const fr = {
       s1: { title: "Inscrivez-vous sur Pluxee", description: "Inscription gratuite sur la plateforme de votre région pour obtenir vos titres-services." },
       s2: { title: "Contactez-nous", description: "Appelez-nous au 071 84 01 84 ou remplissez notre formulaire de demande." },
       s3: { title: "Rencontrez votre aide-ménagère", description: "Nos encadrantes sélectionnent une aide-ménagère adaptée à vos besoins." },
-      s4: { title: "Payez simplement", description: "1 titre = 1 heure. Seulement 9€ après déduction fiscale pour les 150 premiers !" },
+      s4: { title: "Payez simplement", description: "1 titre = 1 heure. À partir de 9,50€ après déduction fiscale (150 premiers titres)." },
     },
     registerTitle: "Inscrivez-vous sur Pluxee (gratuit)",
     regions: { wallonia: "Wallonie", brussels: "Bruxelles-Capital", flanders: "Flandre" },
