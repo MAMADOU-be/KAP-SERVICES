@@ -34,7 +34,7 @@ export const en = {
   about: {
     badge: "Our story",
     title: "Who are we?",
-    description: "Since 2008, Kap Services has been your trusted partner for a clean and organised interior. As a service voucher agency approved by the Walloon Region, we offer professional home help and ironing services with qualified and discreet staff.",
+    description: "Since 2008, Kap Services has been your trusted partner for a clean and organised interior. As a company approved for service vouchers by the Walloon Region, we offer professional home help and ironing services with qualified and discreet staff.",
     timeline: {
       t2008: { title: "Foundation", description: "Birth of Kap-Services SPRL, continuing the founding member's activities." },
       t2012: { title: "Expansion", description: "Purchase of the administrative headquarters building and office expansion." },
