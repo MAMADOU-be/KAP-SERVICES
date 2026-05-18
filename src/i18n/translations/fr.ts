@@ -14,16 +14,16 @@ export const fr = {
     logout: "Déconnexion",
     myAccount: "Mon compte",
     requestQuote: "Demander un devis",
-    subtitle: "Titres-services agréés",
+    subtitle: "Entreprise agréée titres-services",
   },
 
   // Hero
   hero: {
-    badge: "Société agréée titres-services",
+    badge: "Entreprise agréée titres-services",
     title: "Aide ménagère & repassage,",
     titleHighlight: "à votre service",
-    description: "Kap Services est votre agence de titres-services de confiance en Belgique. Nos femmes de ménage agréées assurent un entretien complet de votre domicile : nettoyage, repassage, organisation. Profitez des titres-services pour seulement",
-    priceHighlight: "9€ après déduction fiscale",
+    description: "Kap Services est votre entreprise agréée titres-services de confiance en Belgique. Nos aides-ménagères assurent un entretien complet de votre domicile : nettoyage, repassage, organisation. Profitez des titres-services à partir de",
+    priceHighlight: "9,50€/h après déduction fiscale",
     ctaPrimary: "Demander une aide-ménagère",
     ctaSecondary: "Nous recrutons",
     trustDeclared: "Personnel déclaré",
@@ -37,7 +37,7 @@ export const fr = {
   about: {
     badge: "Notre histoire",
     title: "Qui sommes-nous ?",
-    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Agence titres-services agréée par la Région Wallonne, nous offrons des services professionnels d'aide ménagère à domicile et de repassage, avec un personnel qualifié et discret.",
+    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Entreprise agréée titres-services par la Région Wallonne, nous offrons des services professionnels d'aide ménagère à domicile et de repassage, avec un personnel qualifié et discret.",
     timeline: {
       t2008: { title: "Création", description: "Naissance de Kap-Services SPRL, continuité de l'activité du membre fondateur." },
       t2012: { title: "Expansion", description: "Achat du bâtiment du siège administratif et agrandissement des bureaux." },
@@ -46,7 +46,7 @@ export const fr = {
     },
     values: {
       team: { title: "Équipe d'encadrement", description: "Nos \"Encadrantes\" supervisent et forment continuellement nos aides-ménagères." },
-      training: { title: "Formation continue", description: "Chaque aide-ménagère est formée avant d'intervenir seule et suivie tout au long de l'année." },
+      training: { title: "Formation continue", description: "Chaque aide-ménagère est formée à son entrée en service puis suit plusieurs modules de formation externes par an, complétés par l'accompagnement de nos coaches internes." },
       personalized: { title: "Approche personnalisée", description: "Nous prenons le temps de vous rencontrer pour comprendre vos besoins spécifiques." },
       local: { title: "Ancrage local", description: "Présents dans le Grand Charleroi, Thuin, Nivelles, Binche et bien d'autres communes." },
     },
@@ -122,7 +122,7 @@ export const fr = {
       s1: { title: "Inscrivez-vous sur Pluxee", description: "Inscription gratuite sur la plateforme de votre région pour obtenir vos titres-services." },
       s2: { title: "Contactez-nous", description: "Appelez-nous au 071 84 01 84 ou remplissez notre formulaire de demande." },
       s3: { title: "Rencontrez votre aide-ménagère", description: "Nos encadrantes sélectionnent une aide-ménagère adaptée à vos besoins." },
-      s4: { title: "Payez simplement", description: "1 titre = 1 heure. Seulement 9€ après déduction fiscale pour les 150 premiers !" },
+      s4: { title: "Payez simplement", description: "1 titre = 1 heure. À partir de 9,50€ après déduction fiscale (150 premiers titres)." },
     },
     registerTitle: "Inscrivez-vous sur Pluxee (gratuit)",
     regions: { wallonia: "Wallonie", brussels: "Bruxelles-Capital", flanders: "Flandre" },
@@ -135,10 +135,12 @@ export const fr = {
       electronic: { title: "📱 Titre-service électronique", description: "Transmission via internet. Les prestations sont encodées par l'aide-ménagère et validées automatiquement après 10 jours." },
     },
     pricing: {
-      title: "Tarifs et quotas",
-      mainPrice: "1 titre-service = 10€ = 1 heure de prestation",
-      mainDetail: "Réduction d'impôt de 10% pour les 150 premiers titres →",
-      mainHighlight: "coût réel : 9€/h",
+      title: "Tarifs et quotas (Région wallonne)",
+      mainPrice: "1 titre-service = 1 heure de prestation",
+      mainDetail: "Réduction d'impôt de 0,90€ par titre, sur les 150 premiers titres →",
+      mainHighlight: "coût net : 9,50€/h (10,40€ - 0,90€)",
+      pluxeeLinkText: "Voir les tarifs détaillés et à jour sur Pluxee",
+      pluxeeLinkUrl: "https://www.pluxee.be/fr/utilisateurs/titres-services/",
       individual: "Quota individuel (max 500/an)",
       household: "Quota ménage (max 1000/an)",
       validity: "Validité :",
@@ -149,7 +151,7 @@ export const fr = {
     special: {
       title: "Quotas spéciaux (2000 titres/an)",
       description: "Certaines catégories peuvent commander jusqu'à",
-      descriptionBold: "2000 titres-services à 10€/an",
+      descriptionBold: "2000 titres-services par an",
       items: [
         "Familles monoparentales (déclaration sur l'honneur requise)",
         "Personnes handicapées",
@@ -175,7 +177,7 @@ export const fr = {
       forYou: "✨ Avantages pour vous",
       forWorker: "💼 Avantages pour le travailleur",
       userItems: [
-        "Réduction d'impôt de 10% sur les 150 premiers titres",
+        "Réduction d'impôt de 0,90€ par titre, sur les 150 premiers",
         "Travailleur couvert en cas d'accident",
         "Aucun contrat requis de votre part",
       ],

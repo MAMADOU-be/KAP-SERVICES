@@ -13,15 +13,15 @@ export const en = {
     logout: "Log out",
     myAccount: "My account",
     requestQuote: "Request a quote",
-    subtitle: "Approved service vouchers",
+    subtitle: "Approved service voucher company",
   },
 
   hero: {
     badge: "Approved service voucher company",
     title: "Housekeeping & ironing,",
     titleHighlight: "at your service",
-    description: "Kap Services is your trusted service voucher agency in Belgium. Our approved housekeepers provide complete home maintenance: cleaning, ironing, organisation. Take advantage of service vouchers for only",
-    priceHighlight: "€9 after tax deduction",
+    description: "Kap Services is your trusted service voucher company in Belgium. Our housekeepers provide complete home maintenance: cleaning, ironing, organisation. Take advantage of service vouchers from",
+    priceHighlight: "€9.50/h after tax deduction",
     ctaPrimary: "Request a housekeeper",
     ctaSecondary: "We're hiring",
     trustDeclared: "Declared staff",
@@ -34,7 +34,7 @@ export const en = {
   about: {
     badge: "Our story",
     title: "Who are we?",
-    description: "Since 2008, Kap Services has been your trusted partner for a clean and organised interior. As a service voucher agency approved by the Walloon Region, we offer professional home help and ironing services with qualified and discreet staff.",
+    description: "Since 2008, Kap Services has been your trusted partner for a clean and organised interior. As a company approved for service vouchers by the Walloon Region, we offer professional home help and ironing services with qualified and discreet staff.",
     timeline: {
       t2008: { title: "Foundation", description: "Birth of Kap-Services SPRL, continuing the founding member's activities." },
       t2012: { title: "Expansion", description: "Purchase of the administrative headquarters building and office expansion." },
@@ -43,7 +43,7 @@ export const en = {
     },
     values: {
       team: { title: "Supervision team", description: "Our \"Supervisors\" continuously oversee and train our housekeepers." },
-      training: { title: "Ongoing training", description: "Every housekeeper is trained before working alone and monitored throughout the year." },
+      training: { title: "Ongoing training", description: "Every housekeeper receives initial training upon hiring and then attends several external training modules per year, supported by our internal coaches." },
       personalized: { title: "Personalised approach", description: "We take the time to meet you and understand your specific needs." },
       local: { title: "Local presence", description: "Present in Greater Charleroi, Thuin, Nivelles, Binche and many other municipalities." },
     },
@@ -117,7 +117,7 @@ export const en = {
       s1: { title: "Register on Pluxee", description: "Free registration on your region's platform to get your service vouchers." },
       s2: { title: "Contact us", description: "Call us at 071 84 01 84 or fill in our request form." },
       s3: { title: "Meet your housekeeper", description: "Our supervisors select a housekeeper suited to your needs." },
-      s4: { title: "Pay simply", description: "1 voucher = 1 hour. Only €9 after tax deduction for the first 150!" },
+      s4: { title: "Pay simply", description: "1 voucher = 1 hour. From €9.50 after tax deduction (first 150 vouchers)." },
     },
     registerTitle: "Register on Pluxee (free)",
     regions: { wallonia: "Wallonia", brussels: "Brussels-Capital", flanders: "Flanders" },
@@ -130,10 +130,12 @@ export const en = {
       electronic: { title: "📱 Electronic service voucher", description: "Online transmission. Services are encoded by the housekeeper and automatically validated after 10 days." },
     },
     pricing: {
-      title: "Rates and quotas",
-      mainPrice: "1 service voucher = €10 = 1 hour of service",
-      mainDetail: "10% tax deduction for the first 150 vouchers →",
-      mainHighlight: "actual cost: €9/h",
+      title: "Rates and quotas (Walloon Region)",
+      mainPrice: "1 service voucher = 1 hour of service",
+      mainDetail: "Tax deduction of €0.90 per voucher, on the first 150 vouchers →",
+      mainHighlight: "net cost: €9.50/h (€10.40 - €0.90)",
+      pluxeeLinkText: "See current detailed pricing on Pluxee",
+      pluxeeLinkUrl: "https://www.pluxee.be/fr/utilisateurs/titres-services/",
       individual: "Individual quota (max 500/year)",
       household: "Household quota (max 1000/year)",
       validity: "Validity:",
@@ -144,7 +146,7 @@ export const en = {
     special: {
       title: "Special quotas (2000 vouchers/year)",
       description: "Certain categories can order up to",
-      descriptionBold: "2000 service vouchers at €10/year",
+      descriptionBold: "2000 service vouchers per year",
       items: [
         "Single-parent families (sworn declaration required)",
         "Persons with disabilities",
@@ -170,7 +172,7 @@ export const en = {
       forYou: "✨ Benefits for you",
       forWorker: "💼 Benefits for the worker",
       userItems: [
-        "10% tax deduction on the first 150 vouchers",
+        "Tax deduction of €0.90 per voucher, on the first 150",
         "Worker covered in case of accident",
         "No contract required on your part",
       ],

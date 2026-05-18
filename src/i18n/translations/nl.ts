@@ -13,15 +13,15 @@ export const nl = {
     logout: "Uitloggen",
     myAccount: "Mijn account",
     requestQuote: "Offerte aanvragen",
-    subtitle: "Erkende dienstencheques",
+    subtitle: "Erkend dienstenchequebedrijf",
   },
 
   hero: {
     badge: "Erkend dienstenchequebedrijf",
     title: "Huishoudelijke hulp & strijken,",
     titleHighlight: "tot uw dienst",
-    description: "Kap Services is uw betrouwbaar dienstenchequebedrijf in België. Onze erkende huishoudhulpen zorgen voor een volledig onderhoud van uw woning: schoonmaak, strijken, organisatie. Profiteer van dienstencheques voor slechts",
-    priceHighlight: "9€ na belastingaftrek",
+    description: "Kap Services is uw erkend dienstenchequebedrijf in België. Onze huishoudhulpen zorgen voor een volledig onderhoud van uw woning: schoonmaak, strijken, organisatie. Profiteer van dienstencheques vanaf",
+    priceHighlight: "9,50€/u na belastingaftrek",
     ctaPrimary: "Een huishoudhulp aanvragen",
     ctaSecondary: "Wij werven aan",
     trustDeclared: "Aangegeven personeel",
@@ -34,7 +34,7 @@ export const nl = {
   about: {
     badge: "Ons verhaal",
     title: "Wie zijn wij?",
-    description: "Sinds 2008 is Kap Services uw betrouwbare partner voor een schoon en georganiseerd interieur. Als erkend dienstenchequebedrijf door het Waalse Gewest bieden wij professionele huishoudelijke hulp en strijkdiensten aan huis, met gekwalificeerd en discreet personeel.",
+    description: "Sinds 2008 is Kap Services uw betrouwbare partner voor een schoon en georganiseerd interieur. Erkend dienstenchequebedrijf door het Waalse Gewest, bieden wij professionele huishoudelijke hulp en strijkdiensten aan huis, met gekwalificeerd en discreet personeel.",
     timeline: {
       t2008: { title: "Oprichting", description: "Oprichting van Kap-Services BVBA, voortzetting van de activiteiten van het stichtend lid." },
       t2012: { title: "Uitbreiding", description: "Aankoop van het gebouw van het administratief hoofdkantoor en uitbreiding van de kantoren." },
@@ -43,7 +43,7 @@ export const nl = {
     },
     values: {
       team: { title: "Begeleidingsteam", description: "Onze \"Begeleidsters\" begeleiden en vormen voortdurend onze huishoudhulpen." },
-      training: { title: "Continue opleiding", description: "Elke huishoudhulp wordt opgeleid voordat ze alleen werkt en wordt het hele jaar gevolgd." },
+      training: { title: "Continue opleiding", description: "Elke huishoudhulp krijgt een opleiding bij indiensttreding en volgt vervolgens meerdere externe opleidingsmodules per jaar, aangevuld met de begeleiding van onze interne coaches." },
       personalized: { title: "Persoonlijke aanpak", description: "Wij nemen de tijd om u te ontmoeten en uw specifieke behoeften te begrijpen." },
       local: { title: "Lokale verankering", description: "Aanwezig in Groot-Charleroi, Thuin, Nijvel, Binche en vele andere gemeenten." },
     },
@@ -117,7 +117,7 @@ export const nl = {
       s1: { title: "Schrijf u in bij Pluxee", description: "Gratis inschrijving op het platform van uw regio om uw dienstencheques te verkrijgen." },
       s2: { title: "Contacteer ons", description: "Bel ons op 071 84 01 84 of vul ons aanvraagformulier in." },
       s3: { title: "Ontmoet uw huishoudhulp", description: "Onze begeleidsters selecteren een huishoudhulp aangepast aan uw behoeften." },
-      s4: { title: "Betaal eenvoudig", description: "1 cheque = 1 uur. Slechts 9€ na belastingaftrek voor de eerste 150!" },
+      s4: { title: "Betaal eenvoudig", description: "1 cheque = 1 uur. Vanaf 9,50€ na belastingaftrek (eerste 150 cheques)." },
     },
     registerTitle: "Schrijf u in bij Pluxee (gratis)",
     regions: { wallonia: "Wallonië", brussels: "Brussel-Hoofdstad", flanders: "Vlaanderen" },
@@ -130,10 +130,12 @@ export const nl = {
       electronic: { title: "📱 Elektronische dienstencheque", description: "Verzending via internet. De prestaties worden gecodeerd door de huishoudhulp en automatisch gevalideerd na 10 dagen." },
     },
     pricing: {
-      title: "Tarieven en quota's",
-      mainPrice: "1 dienstencheque = 10€ = 1 uur prestatie",
-      mainDetail: "Belastingaftrek van 10% voor de eerste 150 cheques →",
-      mainHighlight: "werkelijke kost: 9€/u",
+      title: "Tarieven en quota's (Waals Gewest)",
+      mainPrice: "1 dienstencheque = 1 uur prestatie",
+      mainDetail: "Belastingaftrek van 0,90€ per cheque, voor de eerste 150 cheques →",
+      mainHighlight: "nettokost: 9,50€/u (10,40€ - 0,90€)",
+      pluxeeLinkText: "Bekijk de actuele tarieven op Pluxee",
+      pluxeeLinkUrl: "https://www.pluxee.be/nl/gebruikers/dienstencheques/",
       individual: "Individueel quotum (max 500/jaar)",
       household: "Gezinsquotum (max 1000/jaar)",
       validity: "Geldigheid:",
@@ -144,7 +146,7 @@ export const nl = {
     special: {
       title: "Speciale quota's (2000 cheques/jaar)",
       description: "Bepaalde categorieën kunnen tot",
-      descriptionBold: "2000 dienstencheques à 10€/jaar",
+      descriptionBold: "2000 dienstencheques per jaar",
       items: [
         "Eenoudergezinnen (verklaring op eer vereist)",
         "Personen met een handicap",
@@ -170,7 +172,7 @@ export const nl = {
       forYou: "✨ Voordelen voor u",
       forWorker: "💼 Voordelen voor de werknemer",
       userItems: [
-        "Belastingaftrek van 10% op de eerste 150 cheques",
+        "Belastingaftrek van 0,90€ per cheque, op de eerste 150",
         "Werknemer verzekerd bij ongeval",
         "Geen contract vereist van uw kant",
       ],
