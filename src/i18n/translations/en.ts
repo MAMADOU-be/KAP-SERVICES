@@ -172,7 +172,7 @@ export const en = {
       forYou: "✨ Benefits for you",
       forWorker: "💼 Benefits for the worker",
       userItems: [
-        "10% tax deduction on the first 150 vouchers",
+        "Tax deduction of €0.90 per voucher, on the first 150",
         "Worker covered in case of accident",
         "No contract required on your part",
       ],
