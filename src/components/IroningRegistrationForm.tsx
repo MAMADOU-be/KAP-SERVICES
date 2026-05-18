@@ -192,12 +192,12 @@ export function IroningRegistrationForm() {
                   Convention repassage
                 </a>
                 <a
-                  href="/contrats/convention-titres-services-2025.docx"
+                  href="/contrats/convention-prestation-service-domicile-2025.docx"
                   download
                   className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
                 >
                   <Download className="w-3.5 h-3.5" />
-                  Convention titres-services
+                  Convention prestation de service à domicile
                 </a>
               </div>
             </div>
