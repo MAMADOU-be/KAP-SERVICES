@@ -177,7 +177,7 @@ export const fr = {
       forYou: "✨ Avantages pour vous",
       forWorker: "💼 Avantages pour le travailleur",
       userItems: [
-        "Réduction d'impôt de 10% sur les 150 premiers titres",
+        "Réduction d'impôt de 0,90€ par titre, sur les 150 premiers",
         "Travailleur couvert en cas d'accident",
         "Aucun contrat requis de votre part",
       ],
