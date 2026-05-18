@@ -114,7 +114,7 @@ export function ClientRequestsView() {
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             <a
-              href="/contrats/convention-titres-services-2025.docx"
+              href="/contrats/convention-prestation-service-domicile-2025.docx"
               download
               className="flex items-center gap-3 border rounded-xl p-4 hover:bg-secondary/50 transition-colors group"
             >
