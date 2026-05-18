@@ -13,7 +13,7 @@ export const nl = {
     logout: "Uitloggen",
     myAccount: "Mijn account",
     requestQuote: "Offerte aanvragen",
-    subtitle: "Erkende dienstencheques",
+    subtitle: "Erkend dienstenchequebedrijf",
   },
 
   hero: {
