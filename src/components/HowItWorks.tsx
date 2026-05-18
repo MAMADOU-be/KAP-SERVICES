@@ -173,6 +173,15 @@ export function HowItWorks() {
                   </div>
                 </div>
                 <p className="text-sm"><strong>{t.howItWorks.pricing.validity}</strong> {t.howItWorks.pricing.validityValue} • <strong>{t.howItWorks.pricing.minOrder}</strong> {t.howItWorks.pricing.minOrderValue}</p>
+                <a
+                  href={t.howItWorks.pricing.pluxeeLinkUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  {t.howItWorks.pricing.pluxeeLinkText}
+                </a>
               </div>
             </AccordionContent>
           </AccordionItem>
