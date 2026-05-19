@@ -86,22 +86,33 @@ export function About() {
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                 {t.about.certification.summary}
               </p>
-              <button
-                type="button"
-                onClick={() => setShowTranscript((v) => !v)}
-                aria-expanded={showTranscript}
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-              >
-                <ChevronDown className={`w-4 h-4 transition-transform ${showTranscript ? "rotate-180" : ""}`} />
-                {t.about.certification.transcriptToggle}
-              </button>
-              {showTranscript && (
+              <div className="flex flex-wrap gap-3">
+                <button
+                  type="button"
+                  onClick={() => setTranscriptLang((v) => (v === "nl" ? null : "nl"))}
+                  aria-expanded={transcriptLang === "nl"}
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                >
+                  <ChevronDown className={`w-4 h-4 transition-transform ${transcriptLang === "nl" ? "rotate-180" : ""}`} />
+                  {t.about.certification.transcriptToggleNl}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setTranscriptLang((v) => (v === "en" ? null : "en"))}
+                  aria-expanded={transcriptLang === "en"}
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                >
+                  <ChevronDown className={`w-4 h-4 transition-transform ${transcriptLang === "en" ? "rotate-180" : ""}`} />
+                  {t.about.certification.transcriptToggleEn}
+                </button>
+              </div>
+              {transcriptLang && (
                 <div className="mt-4 p-4 rounded-lg bg-secondary/40 border border-border/50">
                   <p className="text-xs font-semibold text-foreground mb-2">
-                    {t.about.certification.transcriptLanguage}
+                    {transcriptLang === "nl" ? t.about.certification.transcriptLanguageNl : t.about.certification.transcriptLanguageEn}
                   </p>
                   <p className="text-xs text-muted-foreground leading-relaxed whitespace-pre-line">
-                    {t.about.certification.transcript}
+                    {transcriptLang === "nl" ? t.about.certification.transcriptNl : t.about.certification.transcriptEn}
                   </p>
                 </div>
               )}
