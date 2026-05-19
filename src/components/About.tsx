@@ -61,6 +61,54 @@ export function About() {
 
         <TeamGallery />
 
+        {/* Certification & témoignage */}
+        <ScrollAnimation animation="fade-up" delay={150} className="mb-16">
+          <div className="grid lg:grid-cols-2 gap-8 items-center bg-card rounded-2xl border border-border/50 p-6 md:p-8">
+            <div className="rounded-xl overflow-hidden bg-secondary/40 aspect-video">
+              <video
+                className="w-full h-full object-cover"
+                controls
+                preload="metadata"
+                playsInline
+                aria-label={t.about.certification.title}
+              >
+                <source src="/videos/certification-temoignage.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div>
+              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-xs font-medium mb-3">
+                <BadgeCheck className="w-3.5 h-3.5" />
+                {t.about.certification.badge}
+              </span>
+              <h3 className="text-2xl font-bold text-foreground mb-3">
+                {t.about.certification.title}
+              </h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                {t.about.certification.summary}
+              </p>
+              <button
+                type="button"
+                onClick={() => setShowTranscript((v) => !v)}
+                aria-expanded={showTranscript}
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+              >
+                <ChevronDown className={`w-4 h-4 transition-transform ${showTranscript ? "rotate-180" : ""}`} />
+                {t.about.certification.transcriptToggle}
+              </button>
+              {showTranscript && (
+                <div className="mt-4 p-4 rounded-lg bg-secondary/40 border border-border/50">
+                  <p className="text-xs font-semibold text-foreground mb-2">
+                    {t.about.certification.transcriptLanguage}
+                  </p>
+                  <p className="text-xs text-muted-foreground leading-relaxed whitespace-pre-line">
+                    {t.about.certification.transcript}
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </ScrollAnimation>
+
         <div ref={valuesRef} className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {values.map((value, index) => (
             <div key={value.title} className="bg-card rounded-2xl p-6 card-hover text-center" style={getStaggeredStyle(index)}>
