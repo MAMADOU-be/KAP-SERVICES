@@ -1,4 +1,5 @@
-import { Building2, Users, Award, Heart } from "lucide-react";
+import { useState } from "react";
+import { Building2, Users, Award, Heart, BadgeCheck, ChevronDown } from "lucide-react";
 import { ScrollAnimation, useStaggeredAnimation } from "@/hooks/useScrollAnimation";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { TeamGallery } from "./TeamGallery";
