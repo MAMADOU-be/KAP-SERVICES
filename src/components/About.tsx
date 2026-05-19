@@ -6,7 +6,7 @@ import { TeamGallery } from "./TeamGallery";
 
 export function About() {
   const { t } = useLanguage();
-  const [showTranscript, setShowTranscript] = useState(false);
+  const [transcriptLang, setTranscriptLang] = useState<null | "nl" | "en">(null);
 
   const timeline = [
     { year: "2008", title: t.about.timeline.t2008.title, description: t.about.timeline.t2008.description },
