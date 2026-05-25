@@ -59,12 +59,8 @@ export function Header() {
           <div className="flex items-center justify-between h-16 md:h-20 px-4">
             {/* Logo */}
             <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center gap-3 group">
-              <div className={`rounded-xl overflow-hidden bg-white flex items-center justify-center transition-all duration-500 ${scrolled ? 'w-9 h-9 shadow-md' : 'w-11 h-11'}`}>
+              <div className={`rounded-xl overflow-hidden bg-white flex items-center justify-center transition-all duration-500 ${scrolled ? 'w-9 h-9 shadow-md rotate-[360deg] scale-90' : 'w-11 h-11 rotate-0 scale-100'} group-hover:rotate-[360deg]`}>
                 <img src={logoKap} alt="Kap Services SRL" className="w-full h-full object-contain" />
-              </div>
-              <div className={`hidden sm:block transition-all duration-300 ${scrolled ? 'opacity-80 -translate-x-0.5' : 'opacity-100'}`}>
-                <p className="font-semibold text-foreground group-hover:text-primary transition-colors">Kap-Services</p>
-                <p className={`text-xs text-muted-foreground transition-all duration-300 ${scrolled ? 'h-0 opacity-0 -mt-1' : 'h-auto opacity-100'}`}>{t.nav.subtitle}</p>
               </div>
             </a>
 
