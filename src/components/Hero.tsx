@@ -75,7 +75,7 @@ export function Hero() {
                     <p className="text-muted-foreground">{t.hero.visualSubtitle}</p>
                   </div>
                 </div>
-              </di>
+              </div>
 
               {/* Villes animées — rapprochées en bas à droite */}
               <div className="absolute -bottom-2 left-0 right-0 flex justify-center gap-2">
