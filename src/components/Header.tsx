@@ -6,6 +6,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import logoKap from "@/assets/logo-kap.jpeg";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,8 +59,8 @@ export function Header() {
           <div className="flex items-center justify-between h-16 md:h-20 px-4">
             {/* Logo */}
             <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center gap-3 group">
-              <div className={`rounded-xl bg-primary flex items-center justify-center transition-all duration-500 ${scrolled ? 'w-9 h-9 rotate-[360deg] shadow-md' : 'w-10 h-10 rotate-0'}`}>
-                <span className="text-primary-foreground font-bold text-lg">K</span>
+              <div className={`rounded-xl overflow-hidden bg-white flex items-center justify-center transition-all duration-500 ${scrolled ? 'w-9 h-9 shadow-md' : 'w-11 h-11'}`}>
+                <img src={logoKap} alt="Kap Services SRL" className="w-full h-full object-contain" />
               </div>
               <div className={`hidden sm:block transition-all duration-300 ${scrolled ? 'opacity-80 -translate-x-0.5' : 'opacity-100'}`}>
                 <p className="font-semibold text-foreground group-hover:text-primary transition-colors">Kap-Services</p>
