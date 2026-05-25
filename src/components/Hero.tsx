@@ -91,9 +91,9 @@ export function Hero() {
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-2">{t.hero.visualTitle}</h3>
                     <p className="text-muted-foreground">{t.hero.visualSubtitle}</p>
-                  </div>
+              </div>
                 </div>
-              </br>
+              </div>
             </div>
           </div>
         </div>
