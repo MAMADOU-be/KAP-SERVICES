@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles, Shield, Clock } from "lucide-react";
+import { ArrowRight, Sparkles, Shield, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 
@@ -15,7 +15,7 @@ export function Hero() {
       
       <div className="container-narrow mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-up">
+          <div className="space-y-6 animate-fade-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <Sparkles className="w-4 h-4" />
               <span>{t.hero.badge}</span>
@@ -43,7 +43,25 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="flex flex-wrap gap-6 pt-4">
+            {/* Villes animées — rapprochées et visibles sur tous les écrans */}
+            <div className="flex flex-wrap gap-3 pt-2">
+              {[
+                { label: "Courcelles", delay: "0s" },
+                { label: "Lobbes", delay: "0.5s" },
+                { label: "Mont-sur-Marchienne", delay: "1s" },
+              ].map((ville) => (
+                <div
+                  key={ville.label}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card shadow-md border border-border animate-float"
+                  style={{ animationDelay: ville.delay }}
+                >
+                  <MapPin className="w-3.5 h-3.5 text-accent" />
+                  <span className="text-sm font-semibold text-primary">{ville.label}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="flex flex-wrap gap-6 pt-2">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Shield className="w-5 h-5 text-primary" />
                 <span className="text-sm">{t.hero.trustDeclared}</span>
@@ -75,17 +93,7 @@ export function Hero() {
                     <p className="text-muted-foreground">{t.hero.visualSubtitle}</p>
                   </div>
                 </div>
-              </div>
-
-              <div className="absolute -top-4 -right-4 px-4 py-2 rounded-xl bg-card shadow-md border border-border animate-float" style={{ animationDelay: "2s" }}>
-                <p className="text-sm font-semibold text-primary">Courcelles</p>
-              </div>
-              <div className="absolute bottom-12 -left-4 px-4 py-2 rounded-xl bg-card shadow-md border border-border animate-float" style={{ animationDelay: "1.5s" }}>
-                <p className="text-sm font-semibold text-primary">Lobbes</p>
-              </div>
-              <div className="absolute top-1/2 -right-8 px-4 py-2 rounded-xl bg-card shadow-md border border-border animate-float" style={{ animationDelay: "0.5s" }}>
-                <p className="text-sm font-semibold text-primary">Mont-sur-Marchienne</p>
-              </div>
+              </br>
             </div>
           </div>
         </div>
