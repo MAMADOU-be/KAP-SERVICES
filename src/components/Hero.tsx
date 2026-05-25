@@ -43,24 +43,6 @@ export function Hero() {
               </Button>
             </div>
 
-            {/* Villes animées — rapprochées et visibles sur tous les écrans */}
-            <div className="flex flex-wrap gap-3 pt-2">
-              {[
-                { label: "Courcelles", delay: "0s" },
-                { label: "Lobbes", delay: "0.5s" },
-                { label: "Mont-sur-Marchienne", delay: "1s" },
-              ].map((ville) => (
-                <div
-                  key={ville.label}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card shadow-md border border-border animate-float"
-                  style={{ animationDelay: ville.delay }}
-                >
-                  <MapPin className="w-3.5 h-3.5 text-accent" />
-                  <span className="text-sm font-semibold text-primary">{ville.label}</span>
-                </div>
-              ))}
-            </div>
-
             <div className="flex flex-wrap gap-6 pt-2">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Shield className="w-5 h-5 text-primary" />
