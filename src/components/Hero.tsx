@@ -43,24 +43,6 @@ export function Hero() {
               </Button>
             </div>
 
-            {/* Villes animées — rapprochées et visibles sur tous les écrans */}
-            <div className="flex flex-wrap gap-3 pt-2">
-              {[
-                { label: "Courcelles", delay: "0s" },
-                { label: "Lobbes", delay: "0.5s" },
-                { label: "Mont-sur-Marchienne", delay: "1s" },
-              ].map((ville) => (
-                <div
-                  key={ville.label}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card shadow-md border border-border animate-float"
-                  style={{ animationDelay: ville.delay }}
-                >
-                  <MapPin className="w-3.5 h-3.5 text-accent" />
-                  <span className="text-sm font-semibold text-primary">{ville.label}</span>
-                </div>
-              ))}
-            </div>
-
             <div className="flex flex-wrap gap-6 pt-2">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Shield className="w-5 h-5 text-primary" />
@@ -83,7 +65,7 @@ export function Hero() {
               <div className="absolute inset-8 rounded-full bg-gradient-to-tr from-accent/20 to-transparent animate-float" style={{ animationDelay: "1s" }} />
               
               <div className="absolute inset-16 rounded-3xl bg-card shadow-lg overflow-hidden border border-border">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
+                <div className="absolute inset-1 bg-gradient-to-br from-primary/5 to-accent/5" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-8">
                     <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center">
@@ -91,8 +73,26 @@ export function Hero() {
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-2">{t.hero.visualTitle}</h3>
                     <p className="text-muted-foreground">{t.hero.visualSubtitle}</p>
-              </div>
+                  </div>
                 </div>
+              </div>
+
+              {/* Villes animées — rapprochées en bas à droite */}
+              <div className="absolute -bottom-2 left-0 right-0 flex justify-center gap-2">
+                {[
+                  { label: "Courcelles", delay: "0s" },
+                  { label: "Lobbes", delay: "0.5s" },
+                  { label: "Mont-sur-Marchienne", delay: "1s" },
+                ].map((ville) => (
+                  <div
+                    key={ville.label}
+                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card/90 backdrop-blur-sm shadow-md border border-border animate-float"
+                    style={{ animationDelay: ville.delay }}
+                  >
+                    <MapPin className="w-3 h-3 text-accent" />
+                    <span className="text-xs font-semibold text-primary whitespace-nowrap">{ville.label}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
