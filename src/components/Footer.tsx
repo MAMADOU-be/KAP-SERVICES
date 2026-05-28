@@ -75,7 +75,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-background/10 text-center text-sm text-background/50 space-y-2">
-          <p>© 2012-{new Date().getFullYear()} {t.footer.copyright}</p>
+          <p>© 2008-{new Date().getFullYear()} {t.footer.copyright}</p>
           <a
             href="https://jolooftech.com"
             target="_blank"
