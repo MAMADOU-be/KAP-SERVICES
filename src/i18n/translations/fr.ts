@@ -20,11 +20,11 @@ export const fr = {
   // Hero
   hero: {
     badge: "Entreprise agréée titres-services",
-    title: "Aide ménagère & repassage,",
+    title: "Aide ménager(e) & repassage,",
     titleHighlight: "à votre service",
     description: "Kap Services est votre entreprise agréée titres-services de confiance en Belgique. Nos aide-ménager.ères assurent un entretien complet de votre domicile : nettoyage, repassage et organisation.\n\nFaire appel à nos services, c'est faire le choix de la sécurité au meilleur prix :\n\n· Un tarif avantageux grâce au système des titres-services et à sa déduction fiscale.\n\n· Zéro travail au noir : vous faites appel à un travailleur légalement déclaré.\n\n· Une sécurité totale : notre personnel est entièrement assuré en cas de dommage ou d'accident.",
     priceHighlight: "",
-    ctaPrimary: "Demander une aide-ménagère",
+    ctaPrimary: "Demander une aide-ménager(e)",
     ctaSecondary: "Nous recrutons",
     trustDeclared: "Personnel déclaré",
     trustFlexible: "Horaires flexibles",
@@ -37,7 +37,7 @@ export const fr = {
   about: {
     badge: "Notre histoire",
     title: "Qui sommes-nous ?",
-    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Entreprise agréée titres-services par la Région Wallonne, nous offrons des services professionnels d'aide ménagère à domicile et de repassage, avec un personnel qualifié et discret.",
+    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Entreprise agréée titres-services par la Région Wallonne, nous offrons des services professionnels d'aide ménager(e) à domicile et de repassage, avec un personnel qualifié et discret.",
     timeline: {
       t2008: { title: "Création", description: "Naissance de Kap-Services SPRL, continuité de l'activité du membre fondateur." },
       t2012: { title: "Expansion", description: "Achat du bâtiment du siège administratif et agrandissement des bureaux." },
@@ -45,19 +45,19 @@ export const fr = {
       today: { year: "Aujourd'hui", title: "100+ employés", description: "Une équipe solide au service de votre confort quotidien." },
     },
     values: {
-      team: { title: "Équipe d'encadrement", description: "Nos \"Encadrantes\" supervisent et forment continuellement nos aides-ménagères." },
-      training: { title: "Formation continue", description: "Chaque aide-ménagère est formée à son entrée en service puis suit plusieurs modules de formation externes par an, complétés par l'accompagnement de nos coaches internes." },
+      team: { title: "Équipe d'encadrement", description: "Nos \"Encadrant(e)s\" supervisent et forment continuellement nos aides-ménager(e)s." },
+      training: { title: "Formation continue", description: "Chaque aide-ménager(e) est formée à son entrée en service puis suit plusieurs modules de formation externes par an, complétés par l'accompagnement de nos coaches internes." },
       personalized: { title: "Approche personnalisée", description: "Nous prenons le temps de vous rencontrer pour comprendre vos besoins spécifiques." },
       local: { title: "Ancrage local", description: "Présents dans le Grand Charleroi, Thuin, Nivelles, Binche et bien d'autres communes." },
     },
     teamGallery: {
       title: "Notre équipe à votre service",
-      description: "Des encadrantes dévouées qui veillent à la qualité de nos prestations au quotidien.",
+      description: "Des encadrant(e)s dévouées qui veillent à la qualité de nos prestations au quotidien.",
     },
     certification: {
       badge: "Témoignage & certification",
       title: "Une entreprise certifiée, des équipes formées en continu",
-      summary: "Découvrez le témoignage d'une de nos coaches internes, certifiée tutrice en entreprise. Depuis 2020, Kap Services met en place un programme de coaching de terrain et de formation continue : nos coaches accompagnent les aides-ménagères au quotidien, les soutiennent dans la gestion du temps, du stress et de la relation client. À l'issue d'un parcours de deux ans, cette reconnaissance officielle valorise nos équipes, renforce l'esprit d'équipe dans un métier souvent isolé, et incarne l'engagement de l'entreprise pour la qualité de service.",
+      summary: "Découvrez le témoignage d'une de nos coaches internes, certifié(e) tuteur(rice) en entreprise. Depuis 2020, Kap Services met en place un programme de coaching de terrain et de formation continue : nos coaches accompagnent les aides-ménager(e)s au quotidien, les soutiennent dans la gestion du temps, du stress et de la relation client. À l'issue d'un parcours de deux ans, cette reconnaissance officielle valorise nos équipes, renforce l'esprit d'équipe dans un métier souvent isolé, et incarne l'engagement de l'entreprise pour la qualité de service.",
       transcriptToggleNl: "Voir la transcription (NL)",
       transcriptToggleEn: "Voir la transcription (EN)",
       transcriptLanguageNl: "Transcription en néerlandais",
@@ -73,7 +73,7 @@ export const fr = {
   services: {
     badge: "Nos services",
     title: "Des services adaptés à vos besoins",
-    description: "Toutes nos aides-ménagères sont motivées, encadrées et formées au préalable avant d'être envoyées seules chez nos clients.",
+    description: "Toutes nos aides-ménager(e)s sont motivées, encadrées et formées au préalable avant d'être envoyées seules chez nos clients.",
     homeTitle: "Activités à domicile",
     homeSubtitle: "Services réalisés chez vous",
     homeItems: [
@@ -118,9 +118,9 @@ export const fr = {
       scaleNote: "* Ce barème est indicatif et non exhaustif. 1 titre-service correspond à 60 points (1h de repassage).",
     },
     guarantees: {
-      same: "Même aide-ménagère à chaque prestation",
+      same: "Même aide-ménager(e) à chaque prestation",
       replacement: "Nous nous efforçons de vous assurer un remplacement en cas d'absence dans la limite de nos disponibilités",
-      supervisors: "Encadrantes disponibles pour toutes questions",
+      supervisors: "Encadrant(e)s disponibles pour toutes questions",
     },
   },
 
@@ -128,11 +128,11 @@ export const fr = {
   howItWorks: {
     badge: "Simple et économique",
     title: "Comment ça marche ?",
-    description: "Le système des titres-services vous permet de bénéficier d'une aide-ménagère déclarée pour un prix avantageux grâce à la déduction fiscale.",
+    description: "Le système des titres-services vous permet de bénéficier d'une aide-ménager(e) déclarée pour un prix avantageux grâce à la déduction fiscale.",
     steps: {
       s1: { title: "Contactez-nous", description: "Appelez-nous au 071 45 57 45." },
       s2: { title: "Rendez-vous à domicile", description: "Si vous n'êtes pas inscrit(e)s, l'encadrant(e) fera le nécessaire pour vous inscrire." },
-      s3: { title: "Attribution d'une aide-ménagère", description: "Nous vous assignons une aide-ménagère adaptée à vos besoins." },
+      s3: { title: "Attribution d'une aide-ménager(e)", description: "Nous vous assignons une aide-ménager(e) adaptée à vos besoins." },
       s4: { title: "Payez simplement", description: "1 titre-service = 1 heure de prestation." },
     },
     registerTitle: "Inscrivez-vous sur Pluxee (gratuit)",
@@ -142,8 +142,8 @@ export const fr = {
     registerHelpEnd: "et nous vous inscrirons.",
     formats: {
       title: "Formats des titres-services",
-      paper: { title: "📄 Titre-service papier", description: "Chèque à dater du jour de la prestation, à signer et à donner à l'aide-ménagère." },
-      electronic: { title: "📱 Titre-service électronique", description: "Transmission via internet. Les prestations sont encodées par l'aide-ménagère et validées automatiquement après 10 jours." },
+      paper: { title: "📄 Titre-service papier", description: "Chèque à dater du jour de la prestation, à signer et à donner à l'aide-ménager(e)." },
+      electronic: { title: "📱 Titre-service électronique", description: "Transmission via internet. Les prestations sont encodées par l'aide-ménager(e) et validées automatiquement après 10 jours." },
     },
     pricing: {
       title: "Tarifs et quotas (Région wallonne)",
@@ -171,18 +171,18 @@ export const fr = {
       ],
     },
     findMaid: {
-      title: "Trouver votre aide-ménagère",
-      desc1: "Votre aide-ménagère est",
-      desc1Bold: "choisie par nos encadrantes",
+      title: "Trouver votre aide-ménager(e)",
+      desc1: "Votre aide-ménager(e) est",
+      desc1Bold: "choisie par nos encadrant(e)s",
       desc1End: "en fonction de vos besoins spécifiques.",
       desc2: "Un",
       desc2Bold: "entretien préalable",
       desc2End: "de présentation sera systématiquement organisé avant le début de chaque relation.",
-      desc3: "Nos encadrantes gèrent les aléas (congés, maladie) et vous proposent un",
+      desc3: "Nos encadrant(e)s gèrent les aléas (congés, maladie) et vous proposent un",
       desc3Bold: "remplacement si nécessaire",
       desc3End: ".",
       warning: "⚠️ Important",
-      warningText: "L'aide-ménagère n'est pas habilitée à accepter un changement d'horaire. Toute modification doit passer par le bureau.",
+      warningText: "L'aide-ménager(e) n'est pas habilitée à accepter un changement d'horaire. Toute modification doit passer par le bureau.",
     },
     advantages: {
       forYou: "✨ Avantages pour vous",
@@ -236,7 +236,7 @@ export const fr = {
   contact: {
     badge: "Contact",
     title: "Contactez-nous",
-    description: "Contactez-nous dès aujourd'hui pour planifier votre service de repassage à domicile ou votre aide ménagère à Courcelles, Mont-sur-Marchienne ou Lobbes.",
+    description: "Contactez-nous dès aujourd'hui pour planifier votre service de repassage à domicile ou votre aide ménager(e) à Courcelles, Mont-sur-Marchienne ou Lobbes.",
     hqTitle: "Kap-Services SRL - Siège administratif",
     address: "Adresse",
     phone: "Téléphone",
@@ -265,7 +265,7 @@ export const fr = {
   recruitment: {
     badge: "Nous recrutons",
     title: "Rejoignez notre équipe !",
-    description: "Nous recherchons des aides-ménagères motivées pour rejoindre notre équipe dynamique. Bénéficiez d'un encadrement professionnel et d'une ambiance de travail conviviale.",
+    description: "Nous recherchons des aides-ménager(e)s motivées pour rejoindre notre équipe dynamique. Bénéficiez d'un encadrement professionnel et d'une ambiance de travail conviviale.",
     applyNow: "Postuler maintenant",
     benefits: {
       stable: { title: "Contrat stable", description: "CDI avec horaires flexibles" },
@@ -274,7 +274,7 @@ export const fr = {
     },
     formBadge: "Jobs - Candidature",
     formTitle: "Postulez chez Kap-Services",
-    formDescription: "Actuellement, nous sommes à la recherche d'aides-ménagères. Si un emploi chez nous vous intéresse, remplissez ce formulaire.",
+    formDescription: "Actuellement, nous sommes à la recherche d'aides-ménager(e)s. Si un emploi chez nous vous intéresse, remplissez ce formulaire.",
     coordinates: "Vos coordonnées",
     allFieldsRequired: "Tous les champs sont obligatoires.",
     aboutApplication: "Concernant votre candidature",
@@ -296,8 +296,8 @@ export const fr = {
 
   // Request Form
   requestForm: {
-    badge: "Demande d'aide-ménagère",
-    title: "Trouvez votre aide-ménagère",
+    badge: "Demande d'aide-ménager(e)",
+    title: "Trouvez votre aide-ménager(e)",
     description: "Remplissez ce formulaire et nous vous contacterons dans les 24 heures ouvrables.",
     callUs: "Vous pouvez également nous téléphoner au",
     coordinates: "Vos coordonnées",

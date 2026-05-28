@@ -13,7 +13,7 @@ const faqData = {
         {
           question: "Qu'est-ce qu'un titre-service ?",
           answer:
-            "Le titre-service est un moyen de paiement subventionné par la Région qui vous permet de bénéficier d'une aide-ménagère agréée à un tarif avantageux. Chaque titre correspond à une heure de prestation. Vous pouvez les commander en format papier ou électronique via Pluxee (anciennement Sodexo).",
+            "Le titre-service est un moyen de paiement subventionné par la Région qui vous permet de bénéficier d'une aide-ménager(e) agréée à un tarif avantageux. Chaque titre correspond à une heure de prestation. Vous pouvez les commander en format papier ou électronique via Pluxee (anciennement Sodexo).",
         },
         {
           question: "Comment commander des titres-services ?",
@@ -28,7 +28,7 @@ const faqData = {
         {
           question: "Titres papier ou électroniques, quelle différence ?",
           answer:
-            "Les titres papier doivent être remis physiquement à votre aide-ménagère à chaque visite. Les titres électroniques (e-titres) sont plus pratiques : ils sont débités automatiquement après chaque prestation. Nous recommandons le format électronique pour simplifier vos démarches.",
+            "Les titres papier doivent être remis physiquement à votre aide-ménager(e) à chaque visite. Les titres électroniques (e-titres) sont plus pratiques : ils sont débités automatiquement après chaque prestation. Nous recommandons le format électronique pour simplifier vos démarches.",
         },
       ],
     },
@@ -47,9 +47,9 @@ const faqData = {
             "Déposez votre linge propre et sec dans l'une de nos agences (Courcelles, Mont-sur-Marchienne ou Lobbes) du lundi au samedi. Nos repasseuses professionnelles s'en occupent et vous le récupérez sous 48h, plié ou sur cintres selon vos préférences. 1 titre-service = 1h de repassage.",
         },
         {
-          question: "Puis-je choisir mon aide-ménagère ?",
+          question: "Puis-je choisir mon aide-ménager(e) ?",
           answer:
-            "Nous attribuons une aide-ménagère fixe à chaque client pour garantir un service personnalisé et de confiance. Si le courant ne passe pas, vous pouvez demander un changement et nous trouverons une personne plus adaptée à vos attentes.",
+            "Nous attribuons une aide-ménager(e) fixe à chaque client pour garantir un service personnalisé et de confiance. Si le courant ne passe pas, vous pouvez demander un changement et nous trouverons une personne plus adaptée à vos attentes.",
         },
         {
           question: "Quelles sont les zones desservies ?",
@@ -70,7 +70,7 @@ const faqData = {
         {
           question: "Quand dois-je payer mes factures ?",
           answer:
-            "Les factures sont envoyées mensuellement et doivent être réglées dans un délai de 15 jours à réception. Vous pouvez payer par virement bancaire. Les titres-services (papier ou électroniques) doivent être remis à l'aide-ménagère à chaque prestation.",
+            "Les factures sont envoyées mensuellement et doivent être réglées dans un délai de 15 jours à réception. Vous pouvez payer par virement bancaire. Les titres-services (papier ou électroniques) doivent être remis à l'aide-ménager(e) à chaque prestation.",
         },
         {
           question: "Que se passe-t-il si je n'ai plus de titres-services disponibles ?",
@@ -89,9 +89,9 @@ const faqData = {
       icon: UserCheck,
       items: [
         {
-          question: "Que se passe-t-il si mon aide-ménagère est malade ?",
+          question: "Que se passe-t-il si mon aide-ménager(e) est malade ?",
           answer:
-            "En cas de maladie de votre aide-ménagère, nous vous proposons systématiquement un remplacement. Notre équipe d'encadrantes organise la substitution le plus rapidement possible pour que votre prestation soit maintenue.",
+            "En cas de maladie de votre aide-ménager(e), nous vous proposons systématiquement un remplacement. Notre équipe d'encadrant(e)s organise la substitution le plus rapidement possible pour que votre prestation soit maintenue.",
         },
         {
           question: "Le remplacement est-il garanti ?",
@@ -99,14 +99,14 @@ const faqData = {
             "Nous nous efforçons de mettre en place un remplacement, toutefois celui-ci ne peut être garanti, car il dépend des disponibilités du personnel et, dans tous les cas, ni le jour ni l'horaire de cette prestation ne peuvent être assurés.",
         },
         {
-          question: "La remplaçante connaîtra-t-elle mes préférences ?",
+          question: "Le/la remplaçant(e) connaîtra-t-il(elle) mes préférences ?",
           answer:
-            "Nous transmettons à la remplaçante toutes vos consignes et préférences enregistrées dans votre dossier (produits à utiliser, zones prioritaires, habitudes de rangement). Cela permet d'assurer une continuité de service optimale.",
+            "Nous transmettons au/à la remplaçant(e) toutes vos consignes et préférences enregistrées dans votre dossier (produits à utiliser, zones prioritaires, habitudes de rangement). Cela permet d'assurer une continuité de service optimale.",
         },
         {
           question: "Comment suis-je prévenu(e) du remplacement ?",
           answer:
-            "Vous êtes contacté(e) par téléphone ou WhatsApp dès que nous sommes informés de l'absence de votre aide-ménagère. Nous vous communiquons le nom de la remplaçante et confirmons l'horaire de la prestation.",
+            "Vous êtes contacté(e) par téléphone ou WhatsApp dès que nous sommes informés de l'absence de votre aide-ménager(e). Nous vous communiquons le nom du/de la remplaçant(e) et confirmons l'horaire de la prestation.",
         },
       ],
     },
