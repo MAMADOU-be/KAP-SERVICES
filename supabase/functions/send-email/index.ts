@@ -29,7 +29,7 @@ async function sendEmail(payload: EmailPayload): Promise<{ success: boolean; err
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      personalizations: [{ to: [{ email: payload.to }] }],
+      personalizations: [{ to: payload.to.split(",").map((e) => ({ email: e.trim() })) }],
       from: { email: fromEmail, name: fromName },
       subject: payload.subject,
       content: [{ type: "text/html", value: payload.html }],
