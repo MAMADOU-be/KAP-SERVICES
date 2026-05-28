@@ -38,6 +38,22 @@ const agenciesData = [
     ]
   },
   {
+    name: "Grace Hollogne",
+    address: "Rue Joseph Heusdens N°2",
+    postalCode: "4460 Grace-Hollogne",
+    phone: "071 45 57 45",
+    mapsQuery: "Rue+Joseph+Heusdens+2,+4460+Grace-Hollogne,+Belgium",
+    hours: [
+      { dayKey: "monday" as const, time: "07h30 - 17h" },
+      { dayKey: "tuesday" as const, time: "07h30 - 17h" },
+      { dayKey: "wednesday" as const, time: "07h30 - 17h" },
+      { dayKey: "thursday" as const, time: "07h30 - 17h" },
+      { dayKey: "friday" as const, time: "07h30 - 17h" },
+      { dayKey: "saturday" as const, time: "08h - 12h15" },
+      { dayKey: "sunday" as const, time: null, closed: true },
+    ]
+  },
+  {
     name: "Mont-sur-Marchienne",
     address: "Avenue Paul Pastur 179, cellule F",
     postalCode: "6032 Mont-sur-Marchienne",
@@ -45,10 +61,10 @@ const agenciesData = [
     phone: "071 45 57 45",
     mapsQuery: "Avenue+Paul+Pastur+179,+6032+Mont-sur-Marchienne,+Belgium",
     hours: [
-      { dayKey: "monday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
-      { dayKey: "tuesday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
-      { dayKey: "wednesday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
-      { dayKey: "thursday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
+      { dayKey: "monday" as const, time: "08h30 - 17h" },
+      { dayKey: "tuesday" as const, time: "08h30 - 17h" },
+      { dayKey: "wednesday" as const, time: "08h30 - 17h" },
+      { dayKey: "thursday" as const, time: "08h30 - 17h" },
       { dayKey: "friday" as const, time: "08h30 - 17h" },
       { dayKey: "saturday" as const, time: "08h30 - 12h45" },
       { dayKey: "sunday" as const, time: null, closed: true },
