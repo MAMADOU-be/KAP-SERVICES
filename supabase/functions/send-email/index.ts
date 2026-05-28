@@ -29,7 +29,7 @@ async function sendEmail(payload: EmailPayload): Promise<{ success: boolean; err
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      personalizations: [{ to: [{ email: payload.to }] }],
+      personalizations: [{ to: payload.to.split(",").map((e) => ({ email: e.trim() })) }],
       from: { email: fromEmail, name: fromName },
       subject: payload.subject,
       content: [{ type: "text/html", value: payload.html }],
@@ -309,7 +309,7 @@ Deno.serve(async (req) => {
         break;
       case "staff_notification":
         emailContent = staffNotificationEmail(data);
-        to = "jolooftech@gmail.com";
+        to = "info@kap-services.be,jolooftech@gmail.com";
         break;
       case "user_notification":
         // Restrict to service/staff. Regular users may only target themselves.
@@ -331,8 +331,9 @@ Deno.serve(async (req) => {
         });
     }
 
-    // Basic recipient email validation
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(to)) {
+    // Basic recipient email validation (supports comma-separated list)
+    const recipients = to.split(",").map((e) => e.trim()).filter(Boolean);
+    if (recipients.length === 0 || !recipients.every((e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e))) {
       return new Response(JSON.stringify({ error: "Invalid recipient" }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
