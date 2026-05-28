@@ -54,7 +54,7 @@ export const nl = {
     certification: {
       badge: "Getuigenis & certificering",
       title: "Een gecertificeerd bedrijf, continu opgeleide teams",
-      summary: "Ontdek de getuigenis van een van onze interne coachs, gecertificeerd als bedrijfstutor. Sinds 2020 heeft Kap Services een programma voor coaching op het terrein en continue opleiding opgezet: onze coachs begeleiden de huishoudhulpen dagelijks en ondersteunen hen bij tijdsbeheer, stress en klantrelaties. Na een traject van twee jaar erkent dit officiële certificaat onze teams, versterkt het de teamgeest in een vaak geïsoleerd beroep en belichaamt het de inzet van het bedrijf voor servicekwaliteit.",
+      summary: "Ontdek de getuigenis van een van onze interne coachs, die nadien gecertificeerd werd als bedrijfstutor. Sinds 2020 heeft Kap Services een programma voor coaching op het terrein en continue opleiding opgezet: onze coachs begeleiden de huishoudhulpen dagelijks en ondersteunen hen bij tijdsbeheer, stress en klantrelaties.\n\nOm nog verder te gaan, biedt het bedrijf aan haar werknemers die dat wensen een specifieke begeleiding aan, verzorgd door onze tutoren en interne coachs, om de competentievalidatietests af te leggen in samenwerking met het consortium CVDC en Forem. Na dit traject behalen de werknemers een erkend diploma en een mooi bewijs van erkenning van hun professionalisme. Dit succes waardeert onze teams, versterkt de teamgeest in een vaak geïsoleerd beroep en belichaamt de inzet van het bedrijf voor servicekwaliteit.",
       transcriptToggleNl: "Transcriptie tonen (NL)",
       transcriptToggleEn: "Transcriptie tonen (EN)",
       transcriptLanguageNl: "Nederlandse transcriptie",

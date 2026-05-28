@@ -54,7 +54,7 @@ export const en = {
     certification: {
       badge: "Testimonial & certification",
       title: "A certified company, continuously trained teams",
-      summary: "Discover the testimonial of one of our internal coachs, certified as a company tutor. Since 2020, Kap Services has set up a field coaching and continuous training programme: our coachs support housekeepers on a daily basis with time management, stress, and client relations. After a two-year programme, this official recognition values our teams, strengthens team spirit in an often-isolated profession, and embodies the company's commitment to service quality.",
+      summary: "Discover the testimonial of one of our internal coachs, who later became a certified company tutor. Since 2020, Kap Services has set up a field coaching and continuous training programme: our coachs support housekeepers on a daily basis with time management, stress, and client relations.\n\nTo go even further, the company offers its workers who wish a specific support, provided by our tutors and internal coachs, to take the skills validation tests in collaboration with the CVDC consortium and Forem. At the end of this process, workers obtain a recognized title and a beautiful proof of recognition of their professionalism. This success values our teams, strengthens team spirit in an often-isolated profession, and embodies the company's commitment to service quality.",
       transcriptToggleNl: "Show transcript (NL)",
       transcriptToggleEn: "Show transcript (EN)",
       transcriptLanguageNl: "Dutch transcript",
