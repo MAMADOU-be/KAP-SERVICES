@@ -131,8 +131,11 @@ export function Agencies() {
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
                 <FileText className="w-5 h-5 text-primary" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground">Convention prestation de service à domicile</h3>
+            <h3 className="text-lg font-semibold text-foreground">Convention prestation de service à domicile</h3>
             </div>
+            <p className="text-sm italic text-foreground/70 mb-2">
+              Voici un exemple de la convention que nous vous proposons.
+            </p>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Concernant le service d'aide de nature ménagère, avant le début de notre collaboration, nous organisons systématiquement un entretien à votre domicile. Cette étape préalable indispensable nous permet de définir précisément vos attentes, d'appréhender les spécificités de votre habitation ainsi que la nature des tâches à réaliser. Ce rendez-vous est essentiel pour permettre à notre encadrant(e) de sélectionner l'intervenant le plus qualifié pour répondre à vos besoins, en tenant compte de vos exigences techniques et de vos préférences personnelles.
             </p>
