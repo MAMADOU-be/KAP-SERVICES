@@ -111,7 +111,7 @@ export const en = {
       scaleSubtitle: "(1 point = 1 minute of ironing)",
       article: "Article",
       points: "Points",
-      scaleNote: "* This scale is indicative. 1 service voucher equals 60 points (1h of ironing).",
+      scaleNote: "* This scale is indicative and not exhaustive. 1 service voucher corresponds to 60 points (1h of ironing).",
     },
     guarantees: {
       same: "Same housekeeper at every appointment",

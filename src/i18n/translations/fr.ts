@@ -115,7 +115,7 @@ export const fr = {
       scaleSubtitle: "(1 point = 1 minute de repassage)",
       article: "Article",
       points: "Points",
-      scaleNote: "* Ce barème est indicatif. 1 titre-service correspond à 60 points (1h de repassage).",
+      scaleNote: "* Ce barème est indicatif et non exhaustif. 1 titre-service correspond à 60 points (1h de repassage).",
     },
     guarantees: {
       same: "Même aide-ménagère à chaque prestation",
