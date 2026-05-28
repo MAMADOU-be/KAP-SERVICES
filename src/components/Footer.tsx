@@ -60,9 +60,8 @@ export function Footer() {
               <li><Link to="/mentions-legales" className="hover:text-primary transition-colors">{t.footer.legalMentions}</Link></li>
               <li><Link to="/confidentialite" className="hover:text-primary transition-colors">{t.footer.privacy}</Link></li>
               <li><Link to="/conditions-generales" className="hover:text-primary transition-colors">{t.footer.terms}</Link></li>
-              <li className="pt-2 border-t border-background/10 mt-2">
-                <a href="/auth" className="hover:text-primary transition-colors">{t.footer.employeeArea}</a>
-              </li>
+
+
             </ul>
           </div>
         </div>
