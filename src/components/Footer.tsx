@@ -2,6 +2,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import jolooftechLogo from "@/assets/jolooftech-logo.jpeg";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -68,17 +69,20 @@ export function Footer() {
 
         <div className="pt-8 border-t border-background/10 text-center text-sm text-background/50 space-y-2">
           <p>© 2012-{new Date().getFullYear()} {t.footer.copyright}</p>
-          <p className="text-xs text-background/40">
-            {t.footer.developedBy}{" "}
-            <a
-              href="https://jolooftech.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary transition-colors font-medium"
-            >
-              Jolooftech
-            </a>
-          </p>
+          <a
+            href="https://jolooftech.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs text-background/40 hover:text-primary transition-colors"
+          >
+            <span>{t.footer.developedBy}</span>
+            <img
+              src={jolooftechLogo}
+              alt="Jolooftech"
+              className="h-5 w-5 rounded-md object-cover"
+            />
+            <span className="font-medium">Jolooftech</span>
+          </a>
         </div>
       </div>
     </footer>
