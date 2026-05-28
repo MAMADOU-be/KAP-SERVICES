@@ -99,9 +99,9 @@ const faqData = {
             "Nous nous efforçons de mettre en place un remplacement, toutefois celui-ci ne peut être garanti, car il dépend des disponibilités du personnel et, dans tous les cas, ni le jour ni l'horaire de cette prestation ne peuvent être assurés.",
         },
         {
-          question: "La remplaçante connaîtra-t-elle mes préférences ?",
+          question: "Le/la remplaçant(e) connaîtra-t-il(elle) mes préférences ?",
           answer:
-            "Nous transmettons à la remplaçante toutes vos consignes et préférences enregistrées dans votre dossier (produits à utiliser, zones prioritaires, habitudes de rangement). Cela permet d'assurer une continuité de service optimale.",
+            "Nous transmettons au/à la remplaçant(e) toutes vos consignes et préférences enregistrées dans votre dossier (produits à utiliser, zones prioritaires, habitudes de rangement). Cela permet d'assurer une continuité de service optimale.",
         },
         {
           question: "Comment suis-je prévenu(e) du remplacement ?",
