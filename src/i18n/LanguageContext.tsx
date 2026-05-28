@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, useMemo, ReactNode } from 'react';
+import { createContext, useContext, useState, useCallback, useMemo, type Context, type ReactNode } from 'react';
 import { translations, Language, TranslationKeys } from './translations';
 
 interface LanguageContextType {
@@ -7,7 +7,13 @@ interface LanguageContextType {
   t: TranslationKeys;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const languageContextGlobal = globalThis as typeof globalThis & {
+  __KAP_LANGUAGE_CONTEXT__?: Context<LanguageContextType | undefined>;
+};
+
+const LanguageContext =
+  languageContextGlobal.__KAP_LANGUAGE_CONTEXT__ ??
+  (languageContextGlobal.__KAP_LANGUAGE_CONTEXT__ = createContext<LanguageContextType | undefined>(undefined));
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>(() => {
