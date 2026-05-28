@@ -197,6 +197,7 @@ export const fr = {
     viewOnMaps: "Voir sur Google Maps",
     schedule: "Horaires",
     closed: "Fermé",
+    centralIroningAddress: "Adresse centrale de repassage",
     days: {
       monday: "Lundi",
       tuesday: "Mardi",

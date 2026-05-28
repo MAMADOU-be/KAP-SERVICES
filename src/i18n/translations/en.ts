@@ -191,6 +191,7 @@ export const en = {
     viewOnMaps: "View on Google Maps",
     schedule: "Opening hours",
     closed: "Closed",
+    centralIroningAddress: "Central ironing address",
     days: {
       monday: "Monday",
       tuesday: "Tuesday",

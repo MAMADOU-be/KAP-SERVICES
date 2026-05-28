@@ -191,6 +191,7 @@ export const nl = {
     viewOnMaps: "Bekijk op Google Maps",
     schedule: "Openingsuren",
     closed: "Gesloten",
+    centralIroningAddress: "Centraal strijkadres",
     days: {
       monday: "Maandag",
       tuesday: "Dinsdag",
