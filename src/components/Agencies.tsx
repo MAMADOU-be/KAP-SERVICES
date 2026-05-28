@@ -85,7 +85,7 @@ export function Agencies() {
           <p className="text-muted-foreground">{t.agencies.description}</p>
         </ScrollAnimation>
 
-        <div ref={agenciesRef} className="grid lg:grid-cols-3 gap-8">
+        <div ref={agenciesRef} className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
           {agenciesData.map((agency, index) => (
             <div key={agency.name} className="rounded-2xl bg-card card-hover border border-border/50 overflow-hidden" style={getAgencyStyle(index)}>
               <div className="bg-primary p-6">
@@ -103,7 +103,7 @@ export function Agencies() {
                     <div>
                       <p className="font-medium text-foreground">{agency.address}</p>
                       <p>{agency.postalCode}</p>
-                      {agency.noteKey && <p className="text-sm italic mt-1">Près du Carrefour Market</p>}
+                      {agency.noteKey && <p className="text-sm italic mt-1">dans le petit zoning</p>}
                     </div>
                   </div>
                 </div>
