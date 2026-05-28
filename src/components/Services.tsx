@@ -16,8 +16,6 @@ import { useLanguage } from "@/i18n/LanguageContext";
 export function Services() {
   const { t } = useLanguage();
 
-  const homeServices = t.services.homeItems;
-
   const externalServices = [
     { icon: Shirt, title: t.services.external.ironing.title, description: t.services.external.ironing.description },
     { icon: ShoppingCart, title: t.services.external.shopping.title, description: t.services.external.shopping.description },
@@ -47,7 +45,6 @@ export function Services() {
     { article: t.ironingArticles.napkin, points: 1 },
   ];
 
-  const [homeServicesRef, homeVisible, getHomeStyle] = useStaggeredAnimation<HTMLDivElement>(homeServices.length, 50);
   const [externalRef, externalVisible, getExternalStyle] = useStaggeredAnimation<HTMLDivElement>(externalServices.length, 100);
 
   return (
@@ -78,17 +75,8 @@ export function Services() {
             </div>
           </div>
 
-          <div ref={homeServicesRef} className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {homeServices.map((service, index) => (
-              <div
-                key={service}
-                className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-colors"
-                style={getHomeStyle(index)}
-              >
-                <Sparkles className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="text-foreground text-sm">{service}</span>
-              </div>
-            ))}
+          <div className="p-6 rounded-2xl bg-card border border-border/50">
+            <p className="text-foreground text-sm">{t.services.homeNote}</p>
           </div>
         </ScrollAnimation>
 

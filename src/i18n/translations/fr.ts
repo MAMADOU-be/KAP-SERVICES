@@ -76,19 +76,8 @@ export const fr = {
     description: "Toutes nos aides-ménager(e)s sont motivées, encadrées et formées au préalable avant d'être envoyées seules chez nos clients.",
     homeTitle: "Activités à domicile",
     homeSubtitle: "Services réalisés chez vous",
-    homeItems: [
-      "Passer l'aspirateur dans la maison ou l'appartement",
-      "Dépoussiérer les meubles",
-      "Shampouiner la moquette",
-      "Nettoyer les sols et cirer le parquet",
-      "Laver les vitres",
-      "Laver la salle de bain",
-      "Ranger le salon, la cuisine et les chambres",
-      "Faire la vaisselle",
-      "Préparer les repas",
-      "Repasser",
-      "Petits travaux de couture occasionnels",
-    ],
+    homeNote: "Nos aides-ménager(e)s réalisent pour vous l'ensemble des tâches ménagères courantes.",
+
     externalTitle: "Activités extérieures",
     externalSubtitle: "Services en dehors de votre domicile",
     external: {
