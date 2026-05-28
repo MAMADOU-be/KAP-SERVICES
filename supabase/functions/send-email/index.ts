@@ -331,8 +331,9 @@ Deno.serve(async (req) => {
         });
     }
 
-    // Basic recipient email validation
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(to)) {
+    // Basic recipient email validation (supports comma-separated list)
+    const recipients = to.split(",").map((e) => e.trim()).filter(Boolean);
+    if (recipients.length === 0 || !recipients.every((e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e))) {
       return new Response(JSON.stringify({ error: "Invalid recipient" }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
