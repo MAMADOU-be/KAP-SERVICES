@@ -38,6 +38,22 @@ const agenciesData = [
     ]
   },
   {
+    name: "Grace Hollogne",
+    address: "Rue Joseph Heusdens N°2",
+    postalCode: "4460 Grace-Hollogne",
+    phone: "071 45 57 45",
+    mapsQuery: "Rue+Joseph+Heusdens+2,+4460+Grace-Hollogne,+Belgium",
+    hours: [
+      { dayKey: "monday" as const, time: "07h30 - 17h" },
+      { dayKey: "tuesday" as const, time: "07h30 - 17h" },
+      { dayKey: "wednesday" as const, time: "07h30 - 17h" },
+      { dayKey: "thursday" as const, time: "07h30 - 17h" },
+      { dayKey: "friday" as const, time: "07h30 - 17h" },
+      { dayKey: "saturday" as const, time: "08h - 12h15" },
+      { dayKey: "sunday" as const, time: null, closed: true },
+    ]
+  },
+  {
     name: "Mont-sur-Marchienne",
     address: "Avenue Paul Pastur 179, cellule F",
     postalCode: "6032 Mont-sur-Marchienne",
@@ -45,10 +61,10 @@ const agenciesData = [
     phone: "071 45 57 45",
     mapsQuery: "Avenue+Paul+Pastur+179,+6032+Mont-sur-Marchienne,+Belgium",
     hours: [
-      { dayKey: "monday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
-      { dayKey: "tuesday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
-      { dayKey: "wednesday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
-      { dayKey: "thursday" as const, time: "08h30 - 12h45 / 13h45 - 17h" },
+      { dayKey: "monday" as const, time: "08h30 - 17h" },
+      { dayKey: "tuesday" as const, time: "08h30 - 17h" },
+      { dayKey: "wednesday" as const, time: "08h30 - 17h" },
+      { dayKey: "thursday" as const, time: "08h30 - 17h" },
       { dayKey: "friday" as const, time: "08h30 - 17h" },
       { dayKey: "saturday" as const, time: "08h30 - 12h45" },
       { dayKey: "sunday" as const, time: null, closed: true },
@@ -69,7 +85,7 @@ export function Agencies() {
           <p className="text-muted-foreground">{t.agencies.description}</p>
         </ScrollAnimation>
 
-        <div ref={agenciesRef} className="grid lg:grid-cols-3 gap-8">
+        <div ref={agenciesRef} className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
           {agenciesData.map((agency, index) => (
             <div key={agency.name} className="rounded-2xl bg-card card-hover border border-border/50 overflow-hidden" style={getAgencyStyle(index)}>
               <div className="bg-primary p-6">
@@ -87,7 +103,7 @@ export function Agencies() {
                     <div>
                       <p className="font-medium text-foreground">{agency.address}</p>
                       <p>{agency.postalCode}</p>
-                      {agency.noteKey && <p className="text-sm italic mt-1">Près du Carrefour Market</p>}
+                      {agency.noteKey && <p className="text-sm italic mt-1">dans le petit zoning</p>}
                     </div>
                   </div>
                 </div>

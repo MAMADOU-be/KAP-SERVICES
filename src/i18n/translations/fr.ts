@@ -66,7 +66,7 @@ export const fr = {
       transcriptEn: "My professional journey at Kap Services began in 2019 as a domestic helper. In 2020, Mr. Burgeon introduced within the company the principle of deploying coaches who go out on the field with the domestic helpers to guide, support or simply assist them when they encountered small difficulties — client relations, time management or stress management. Then, because we had successfully completed the two years, he proposed officially validating this journey with a certificate proving we had acquired the skills to be coach and tutor within the company and to train our colleagues. For me it was truly a fulfilment, a success, because I fully invested myself in that training. The paper represents the path I ultimately completed in three years within my company. Yes, absolutely, 1000%, it opens up a form of recognition and pride. My certificate hangs framed in my coaching workshop, because it is the culmination of two years of training, the culmination of something built within a company — and it wasn't given to me alone, because through this I truly discovered a new side of myself: enjoying guiding, training and answering questions whenever needed. I would say it is really important to set up something like this, because it brings so much good to the employee themselves. This recognition of the profession is not always self-evident. It also creates a team spirit in sectors that are sometimes very isolated, like service vouchers, where colleagues don't know each other. Thanks to all these training sessions, we get to know each other. It also creates a win-win situation, because in the end we feel valued, and the same goes for the employer. So it creates a team spirit and the motivation to always want to give more.",
     },
     coverage: "Zone desservie :",
-    coverageList: "Courcelles, Lobbes, Mont-sur-Marchienne, Grand Charleroi, Nalinnes, Ham-sur-Heure, Viesville, Thuin, Biercée, Anderlues, Nivelles, Binche...",
+    coverageList: "Courcelles, Lobbes, Grace Hollogne, Mont-sur-Marchienne, Grand Charleroi, Nalinnes, Ham-sur-Heure, Viesville, Thuin, Biercée, Anderlues, Nivelles, Binche...",
   },
 
   // Services
@@ -92,7 +92,7 @@ export const fr = {
       desc1End: "et soignées.",
       desc2: "Déposez vos mannes du",
       desc2Bold: "lundi au samedi",
-      desc2End: "dans nos agences de Courcelles, Mont-sur-Marchienne ou Lobbes.",
+      desc2End: "dans nos agences de Courcelles, Mont-sur-Marchienne, Lobbes ou Grace Hollogne.",
       desc3: "Le linge doit être préalablement nettoyé et sec.",
       desc4: "Récupérez votre manne dans un",
       desc4Bold: "délai de 48h",
@@ -193,7 +193,7 @@ export const fr = {
   agencies: {
     badge: "Proximité",
     title: "Nos agences",
-    description: "Interventions à domicile à Courcelles, Mont-sur-Marchienne et Lobbes. Service rapide et flexible selon vos besoins, avec facturation simplifiée via le système des titres-services.",
+    description: "Interventions à domicile à Courcelles, Mont-sur-Marchienne, Lobbes et Grace Hollogne. Service rapide et flexible selon vos besoins, avec facturation simplifiée via le système des titres-services.",
     viewOnMaps: "Voir sur Google Maps",
     schedule: "Horaires",
     closed: "Fermé",
@@ -225,7 +225,7 @@ export const fr = {
   contact: {
     badge: "Contact",
     title: "Contactez-nous",
-    description: "Contactez-nous dès aujourd'hui pour planifier votre service de repassage à domicile ou votre aide ménager(e) à Courcelles, Mont-sur-Marchienne ou Lobbes.",
+    description: "Contactez-nous dès aujourd'hui pour planifier votre service de repassage à domicile ou votre aide ménager(e) à Courcelles, Mont-sur-Marchienne, Lobbes ou Grace Hollogne.",
     hqTitle: "Kap-Services SRL - Siège administratif",
     address: "Adresse",
     phone: "Téléphone",

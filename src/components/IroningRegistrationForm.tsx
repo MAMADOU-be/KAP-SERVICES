@@ -52,6 +52,7 @@ const agencies = [
   { value: "courcelles", label: "Courcelles" },
   { value: "mont-sur-marchienne", label: "Mont-sur-Marchienne" },
   { value: "lobbes", label: "Lobbes" },
+  { value: "grace-hollogne", label: "Grace Hollogne" },
 ];
 
 const foldingOptions = [

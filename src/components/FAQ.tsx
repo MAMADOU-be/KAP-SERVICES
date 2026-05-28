@@ -44,7 +44,7 @@ const faqData = {
         {
           question: "Comment fonctionne le repassage en atelier ?",
           answer:
-            "Déposez votre linge propre et sec dans l'une de nos agences (Courcelles, Mont-sur-Marchienne ou Lobbes) du lundi au samedi. Nos repasseuses professionnelles s'en occupent et vous le récupérez sous 48h, plié ou sur cintres selon vos préférences. 1 titre-service = 1h de repassage.",
+            "Déposez votre linge propre et sec dans l'une de nos agences (Courcelles, Mont-sur-Marchienne, Lobbes ou Grace Hollogne) du lundi au samedi. Nos repasseuses professionnelles s'en occupent et vous le récupérez sous 48h, plié ou sur cintres selon vos préférences. 1 titre-service = 1h de repassage.",
         },
         {
           question: "Puis-je choisir mon aide-ménager(e) ?",
@@ -54,7 +54,7 @@ const faqData = {
         {
           question: "Quelles sont les zones desservies ?",
           answer:
-            "Nous intervenons dans la région de Charleroi et ses environs, via nos agences de Courcelles, Mont-sur-Marchienne et Lobbes. Contactez-nous pour vérifier que votre adresse est bien dans notre zone de couverture.",
+            "Nous intervenons dans la région de Charleroi et ses environs, via nos agences de Courcelles, Mont-sur-Marchienne, Lobbes et Grace Hollogne. Contactez-nous pour vérifier que votre adresse est bien dans notre zone de couverture.",
         },
       ],
     },
@@ -150,7 +150,7 @@ const faqData = {
         {
           question: "Hoe werkt het strijken in het atelier?",
           answer:
-            "Breng uw schoon en droog wasgoed naar een van onze agentschappen (Courcelles, Mont-sur-Marchienne of Lobbes) van maandag tot zaterdag. Onze professionele strijksters zorgen ervoor en u haalt het op binnen 48u, gevouwen of op hangers naar uw voorkeur. 1 dienstencheque = 1u strijken.",
+            "Breng uw schoon en droog wasgoed naar een van onze agentschappen (Courcelles, Mont-sur-Marchienne, Lobbes of Grace Hollogne) van maandag tot zaterdag. Onze professionele strijksters zorgen ervoor en u haalt het op binnen 48u, gevouwen of op hangers naar uw voorkeur. 1 dienstencheque = 1u strijken.",
         },
         {
           question: "Kan ik mijn huishoudhulp kiezen?",
@@ -160,7 +160,7 @@ const faqData = {
         {
           question: "Wat zijn de bediende zones?",
           answer:
-            "Wij zijn actief in de regio Charleroi en omgeving, via onze agentschappen in Courcelles, Mont-sur-Marchienne en Lobbes. Neem contact met ons op om te controleren of uw adres in ons dekkingsgebied valt.",
+            "Wij zijn actief in de regio Charleroi en omgeving, via onze agentschappen in Courcelles, Mont-sur-Marchienne, Lobbes en Grace Hollogne. Neem contact met ons op om te controleren of uw adres in ons dekkingsgebied valt.",
         },
       ],
     },
@@ -256,7 +256,7 @@ const faqData = {
         {
           question: "How does workshop ironing work?",
           answer:
-            "Drop off your clean, dry laundry at one of our agencies (Courcelles, Mont-sur-Marchienne or Lobbes) Monday to Saturday. Our professional ironers take care of it and you pick it up within 48h, folded or on hangers as you prefer. 1 service voucher = 1h of ironing.",
+            "Drop off your clean, dry laundry at one of our agencies (Courcelles, Mont-sur-Marchienne, Lobbes or Grace Hollogne) Monday to Saturday. Our professional ironers take care of it and you pick it up within 48h, folded or on hangers as you prefer. 1 service voucher = 1h of ironing.",
         },
         {
           question: "Can I choose my housekeeper?",
@@ -266,7 +266,7 @@ const faqData = {
         {
           question: "What areas are served?",
           answer:
-            "We operate in the Charleroi region and surroundings, through our agencies in Courcelles, Mont-sur-Marchienne and Lobbes. Contact us to check that your address is within our coverage area.",
+            "We operate in the Charleroi region and surroundings, through our agencies in Courcelles, Mont-sur-Marchienne, Lobbes and Grace Hollogne. Contact us to check that your address is within our coverage area.",
         },
       ],
     },
