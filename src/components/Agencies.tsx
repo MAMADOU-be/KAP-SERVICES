@@ -60,8 +60,6 @@ const agenciesData = [
     noteKey: "nearCarrefour",
     phone: "071 45 57 45",
     mapsQuery: "Avenue+Paul+Pastur+179,+6032+Mont-sur-Marchienne,+Belgium",
-    secondaryAddress: "Adresse centrale de repassage, Rue des Rèwes 31",
-    secondaryPostalCode: "4420 Saint-Nicolas",
     hours: [
       { dayKey: "monday" as const, time: "08h30 - 17h" },
       { dayKey: "tuesday" as const, time: "08h30 - 17h" },
@@ -106,12 +104,6 @@ export function Agencies() {
                       <p className="font-medium text-foreground">{agency.address}</p>
                       <p>{agency.postalCode}</p>
                       {agency.noteKey && <p className="text-sm italic mt-1">dans le petit zoning</p>}
-                      {agency.secondaryAddress && (
-                        <div className="mt-3 pt-3 border-t border-border/50">
-                          <p className="font-medium text-foreground text-sm">{agency.secondaryAddress}</p>
-                          {agency.secondaryPostalCode && <p className="text-sm text-muted-foreground">{agency.secondaryPostalCode}</p>}
-                        </div>
-                      )}
                     </div>
                   </div>
                 </div>
