@@ -69,6 +69,9 @@ const starchOptions = [
 
 export function IroningRegistrationForm() {
   const [signature, setSignature] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
