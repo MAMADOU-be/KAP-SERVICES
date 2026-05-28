@@ -43,7 +43,7 @@ const faqData = {
       icon: UserCheck,
       items: [
         { question: "Que se passe-t-il si mon aide-ménagère est malade ?", answer: "En cas de maladie de votre aide-ménagère, nous vous proposons systématiquement un remplacement. Notre équipe d'encadrantes organise la substitution le plus rapidement possible pour que votre prestation soit maintenue." },
-        { question: "Le remplacement est-il garanti ?", answer: "Oui, le remplacement est garanti. C'est l'un de nos engagements qualité. Si, dans de rares cas, aucun remplacement n'est possible le jour même, nous reprogrammons la prestation dans les meilleurs délais sans frais supplémentaires." },
+        { question: "Le remplacement est-il garanti ?", answer: "Nous nous efforçons de mettre en place un remplacement, toutefois celui-ci ne peut être garanti, car il dépend des disponibilités du personnel et, dans tous les cas, ni le jour ni l'horaire de cette prestation ne peuvent être assurés." },
         { question: "La remplaçante connaîtra-t-elle mes préférences ?", answer: "Nous transmettons à la remplaçante toutes vos consignes et préférences enregistrées dans votre dossier (produits à utiliser, zones prioritaires, habitudes de rangement). Cela permet d'assurer une continuité de service optimale." },
         { question: "Comment suis-je prévenu(e) du remplacement ?", answer: "Vous êtes contacté(e) par téléphone ou WhatsApp dès que nous sommes informés de l'absence de votre aide-ménagère. Nous vous communiquons le nom de la remplaçante et confirmons l'horaire de la prestation." },
       ],
@@ -85,7 +85,7 @@ const faqData = {
       icon: UserCheck,
       items: [
         { question: "Wat gebeurt er als mijn huishoudhulp ziek is?", answer: "Bij ziekte van uw huishoudhulp bieden wij u systematisch een vervanging aan. Ons team van begeleidsters organiseert de vervanging zo snel mogelijk zodat uw prestatie gehandhaafd blijft." },
-        { question: "Is de vervanging gegarandeerd?", answer: "Ja, de vervanging is gegarandeerd. Het is een van onze kwaliteitsbeloften. Als er in zeldzame gevallen geen vervanging mogelijk is op dezelfde dag, plannen wij de prestatie zo snel mogelijk opnieuw in zonder extra kosten." },
+        { question: "Is de vervanging gegarandeerd?", answer: "Wij streven ernaar een vervanging te regelen, maar deze kan niet worden gegarandeerd, omdat deze afhangt van de beschikbaarheid van het personeel en in alle gevallen noch de dag noch het uur van deze dienst kunnen worden gegarandeerd." },
         { question: "Kent de vervangster mijn voorkeuren?", answer: "Wij bezorgen de vervangster al uw instructies en voorkeuren die in uw dossier zijn geregistreerd (te gebruiken producten, prioritaire zones, opruimgewoonten). Dit zorgt voor een optimale continuïteit van de service." },
         { question: "Hoe word ik op de hoogte gebracht van de vervanging?", answer: "U wordt telefonisch of via WhatsApp gecontacteerd zodra wij op de hoogte zijn van de afwezigheid van uw huishoudhulp. Wij delen u de naam van de vervangster mee en bevestigen het uur van de prestatie." },
       ],
@@ -127,7 +127,7 @@ const faqData = {
       icon: UserCheck,
       items: [
         { question: "What happens if my housekeeper is ill?", answer: "In case of illness of your housekeeper, we systematically offer you a replacement. Our team of supervisors organises the substitution as quickly as possible to maintain your service." },
-        { question: "Is the replacement guaranteed?", answer: "Yes, the replacement is guaranteed. It is one of our quality commitments. If, in rare cases, no replacement is possible on the same day, we reschedule the service as soon as possible at no extra charge." },
+        { question: "Is the replacement guaranteed?", answer: "We endeavour to arrange a replacement, however this cannot be guaranteed as it depends on staff availability and in any case neither the day nor the time of this service can be assured." },
         { question: "Will the replacement know my preferences?", answer: "We pass on to the replacement all your instructions and preferences recorded in your file (products to use, priority areas, tidying habits). This ensures optimal service continuity." },
         { question: "How am I informed of the replacement?", answer: "You are contacted by phone or WhatsApp as soon as we are informed of your housekeeper's absence. We communicate the replacement's name and confirm the service schedule." },
       ],
