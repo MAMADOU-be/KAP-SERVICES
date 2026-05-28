@@ -60,6 +60,8 @@ const agenciesData = [
     noteKey: "nearCarrefour",
     phone: "071 45 57 45",
     mapsQuery: "Avenue+Paul+Pastur+179,+6032+Mont-sur-Marchienne,+Belgium",
+    secondaryAddress: "Adresse centrale de repassage, Rue des Rèwes 31",
+    secondaryPostalCode: "4420 Saint-Nicolas",
     hours: [
       { dayKey: "monday" as const, time: "08h30 - 17h" },
       { dayKey: "tuesday" as const, time: "08h30 - 17h" },
@@ -67,23 +69,6 @@ const agenciesData = [
       { dayKey: "thursday" as const, time: "08h30 - 17h" },
       { dayKey: "friday" as const, time: "08h30 - 17h" },
       { dayKey: "saturday" as const, time: "08h30 - 12h45" },
-      { dayKey: "sunday" as const, time: null, closed: true },
-    ]
-  },
-  {
-    name: "Saint-Nicolas",
-    address: "Rue des Rèwes 31",
-    postalCode: "4420 Saint-Nicolas",
-    noteKey: "centralIroning",
-    phone: "071 45 57 45",
-    mapsQuery: "Rue+des+Rèwes+31,+4420+Saint-Nicolas,+Belgium",
-    hours: [
-      { dayKey: "monday" as const, time: "07h30 - 17h" },
-      { dayKey: "tuesday" as const, time: "07h30 - 17h" },
-      { dayKey: "wednesday" as const, time: "07h30 - 17h" },
-      { dayKey: "thursday" as const, time: "07h30 - 17h" },
-      { dayKey: "friday" as const, time: "07h30 - 17h" },
-      { dayKey: "saturday" as const, time: "08h - 12h15" },
       { dayKey: "sunday" as const, time: null, closed: true },
     ]
   }
