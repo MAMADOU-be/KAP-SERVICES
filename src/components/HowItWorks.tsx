@@ -1,7 +1,7 @@
 import { 
-  CreditCard, 
+  Phone, 
+  Home, 
   UserCheck, 
-  CalendarCheck, 
   Euro,
   ExternalLink,
   FileText,
@@ -27,7 +27,7 @@ const regions = [
   { key: "flanders" as const, url: "https://extranet.dienstencheques-vlaanderen.be/Public/Users/Registration?lang=nl" },
 ];
 
-const stepIcons = [CreditCard, UserCheck, CalendarCheck, Euro];
+const stepIcons = [Phone, Home, UserCheck, Euro];
 const stepKeys = ["s1", "s2", "s3", "s4"] as const;
 
 const userAdvantageIcons = [Euro, ShieldCheck, FileText];
