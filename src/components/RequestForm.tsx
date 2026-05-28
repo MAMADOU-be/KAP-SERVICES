@@ -94,7 +94,6 @@ export function RequestForm() {
   const [honeypot, setHoneypot] = useState("");
 
   const onSubmit = async (data: FormData) => {
-  const onSubmit = async (data: FormData) => {
     if (honeypot) {
       setIsSubmitted(true);
       return;
