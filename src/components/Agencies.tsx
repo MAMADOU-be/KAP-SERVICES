@@ -149,6 +149,7 @@ export function Agencies() {
           ))}
         </div>
 
+        <ScrollAnimation animation="fade-up" delay={200} className="mt-16">
           <div className="max-w-3xl mx-auto rounded-2xl bg-card border border-border/50 p-6 md:p-8">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
