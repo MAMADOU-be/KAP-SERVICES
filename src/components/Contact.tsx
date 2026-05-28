@@ -96,7 +96,7 @@ export function Contact() {
                 </div>
               </div>
               <div className="mt-8 pt-6 border-t border-border">
-                <p className="text-sm text-muted-foreground"><strong>{t.contact.companyNumber}</strong> BE 0847.632.505</p>
+                <p className="text-sm text-muted-foreground"><strong>{t.contact.companyNumber}</strong> 0898409644</p>
                 <p className="text-sm text-muted-foreground mt-2"><strong>{t.contact.approval}</strong> {t.contact.approvalRegion}</p>
               </div>
             </div>

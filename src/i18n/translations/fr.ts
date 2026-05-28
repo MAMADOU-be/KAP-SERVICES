@@ -37,7 +37,7 @@ export const fr = {
   about: {
     badge: "Notre histoire",
     title: "Qui sommes-nous ?",
-    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Entreprise agréée titres-services par la Région Wallonne, nous offrons des services professionnels d'aide ménager(e) à domicile et de repassage, avec un personnel qualifié et discret.",
+    description: "Depuis 2008, Kap Services est votre partenaire de confiance pour un intérieur propre et organisé. Entreprise agréée titres-services (n° 03293), nous offrons des services professionnels d'aide ménager(e) à domicile et de repassage, avec un personnel qualifié et discret.",
     timeline: {
       t2008: { title: "Création", description: "Naissance de Kap-Services SPRL, continuité de l'activité du membre fondateur." },
       t2012: { title: "Expansion", description: "Achat du bâtiment du siège administratif et agrandissement des bureaux." },
@@ -135,7 +135,7 @@ export const fr = {
       electronic: { title: "📱 Titre-service électronique", description: "Transmission via internet. Les prestations sont encodées par l'aide-ménager(e) et validées automatiquement après 10 jours." },
     },
     pricing: {
-      title: "Tarifs et quotas (Région wallonne)",
+      title: "Tarifs et quotas (03293)",
       mainPrice: "1 titre-service = 1 heure de prestation",
       mainDetail: "Réduction d'impôt de 0,90€ par titre, sur les 150 premiers titres →",
       mainHighlight: "coût net : 9,50€/h (10,40€ - 0,90€)",
@@ -232,7 +232,7 @@ export const fr = {
     email: "Email",
     companyNumber: "Numéro d'entreprise :",
     approval: "Agrément titres-services :",
-    approvalRegion: "Région Wallonne",
+    approvalRegion: "03293",
     formTitle: "Envoyez-nous un message",
     allFieldsRequired: "Tous les champs sont obligatoires.",
     lastName: "Nom",

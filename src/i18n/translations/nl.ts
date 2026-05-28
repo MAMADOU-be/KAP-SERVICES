@@ -34,7 +34,7 @@ export const nl = {
   about: {
     badge: "Ons verhaal",
     title: "Wie zijn wij?",
-    description: "Sinds 2008 is Kap Services uw betrouwbare partner voor een schoon en georganiseerd interieur. Erkend dienstenchequebedrijf door het Waalse Gewest, bieden wij professionele huishoudelijke hulp en strijkdiensten aan huis, met gekwalificeerd en discreet personeel.",
+    description: "Sinds 2008 is Kap Services uw betrouwbare partner voor een schoon en georganiseerd interieur. Erkend dienstenchequebedrijf (nr. 03293), bieden wij professionele huishoudelijke hulp en strijkdiensten aan huis, met gekwalificeerd en discreet personeel.",
     timeline: {
       t2008: { title: "Oprichting", description: "Oprichting van Kap-Services BVBA, voortzetting van de activiteiten van het stichtend lid." },
       t2012: { title: "Uitbreiding", description: "Aankoop van het gebouw van het administratief hoofdkantoor en uitbreiding van de kantoren." },
@@ -130,7 +130,7 @@ export const nl = {
       electronic: { title: "📱 Elektronische dienstencheque", description: "Verzending via internet. De prestaties worden gecodeerd door de huishoudhulp en automatisch gevalideerd na 10 dagen." },
     },
     pricing: {
-      title: "Tarieven en quota's (Waals Gewest)",
+      title: "Tarieven en quota's (03293)",
       mainPrice: "1 dienstencheque = 1 uur prestatie",
       mainDetail: "Belastingaftrek van 0,90€ per cheque, voor de eerste 150 cheques →",
       mainHighlight: "nettokost: 9,50€/u (10,40€ - 0,90€)",
@@ -224,7 +224,7 @@ export const nl = {
     email: "E-mail",
     companyNumber: "Ondernemingsnummer:",
     approval: "Erkenning dienstencheques:",
-    approvalRegion: "Waals Gewest",
+    approvalRegion: "03293",
     formTitle: "Stuur ons een bericht",
     allFieldsRequired: "Alle velden zijn verplicht.",
     lastName: "Naam",

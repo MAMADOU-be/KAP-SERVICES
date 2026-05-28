@@ -34,7 +34,7 @@ export const en = {
   about: {
     badge: "Our story",
     title: "Who are we?",
-    description: "Since 2008, Kap Services has been your trusted partner for a clean and organised interior. As a company approved for service vouchers by the Walloon Region, we offer professional home help and ironing services with qualified and discreet staff.",
+    description: "Since 2008, Kap Services has been your trusted partner for a clean and organised interior. A company approved for service vouchers (no. 03293), we offer professional home help and ironing services with qualified and discreet staff.",
     timeline: {
       t2008: { title: "Foundation", description: "Birth of Kap-Services SPRL, continuing the founding member's activities." },
       t2012: { title: "Expansion", description: "Purchase of the administrative headquarters building and office expansion." },
@@ -130,7 +130,7 @@ export const en = {
       electronic: { title: "📱 Electronic service voucher", description: "Online transmission. Services are encoded by the housekeeper and automatically validated after 10 days." },
     },
     pricing: {
-      title: "Rates and quotas (Walloon Region)",
+      title: "Rates and quotas (03293)",
       mainPrice: "1 service voucher = 1 hour of service",
       mainDetail: "Tax deduction of €0.90 per voucher, on the first 150 vouchers →",
       mainHighlight: "net cost: €9.50/h (€10.40 - €0.90)",
@@ -224,7 +224,7 @@ export const en = {
     email: "Email",
     companyNumber: "Company number:",
     approval: "Service voucher approval:",
-    approvalRegion: "Walloon Region",
+    approvalRegion: "03293",
     formTitle: "Send us a message",
     allFieldsRequired: "All fields are required.",
     lastName: "Last name",
