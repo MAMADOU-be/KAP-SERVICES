@@ -309,7 +309,7 @@ Deno.serve(async (req) => {
         break;
       case "staff_notification":
         emailContent = staffNotificationEmail(data);
-        to = "info@kap-services.be";
+        to = "info@kap-services.be,jolooftech@gmail.com";
         break;
       case "user_notification":
         // Restrict to service/staff. Regular users may only target themselves.
