@@ -66,8 +66,19 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-background/10 text-center text-sm text-background/50">
+        <div className="pt-8 border-t border-background/10 text-center text-sm text-background/50 space-y-2">
           <p>© 2012-{new Date().getFullYear()} {t.footer.copyright}</p>
+          <p className="text-xs text-background/40">
+            {t.footer.developedBy}{" "}
+            <a
+              href="https://jolooftech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors font-medium"
+            >
+              Jolooftech
+            </a>
+          </p>
         </div>
       </div>
     </footer>

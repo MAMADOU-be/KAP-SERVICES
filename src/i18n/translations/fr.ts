@@ -338,6 +338,7 @@ export const fr = {
     privacy: "Politique de confidentialité",
     terms: "Conditions générales",
     employeeArea: "Espace employé",
+    developedBy: "Développé par",
     copyright: "Kap-Services SRL. Tous droits réservés.",
   },
 
