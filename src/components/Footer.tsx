@@ -55,6 +55,10 @@ export function Footer() {
                 <MapPin className="w-4 h-4 text-primary mt-1" />
                 <span>Rue Winston Churchill 212A<br />6180 Courcelles</span>
               </li>
+              <li className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-primary mt-1" />
+                <span>Siège social : Rue de la corderie N°3<br />6061 Montignies-sur-Sambre</span>
+              </li>
             </ul>
           </div>
 
