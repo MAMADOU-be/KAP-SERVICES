@@ -72,19 +72,8 @@ export const nl = {
     description: "Al onze huishoudhulpen zijn gemotiveerd, begeleid en vooraf opgeleid voordat ze alleen naar onze klanten worden gestuurd.",
     homeTitle: "Activiteiten aan huis",
     homeSubtitle: "Diensten uitgevoerd bij u thuis",
-    homeItems: [
-      "Stofzuigen in huis of appartement",
-      "Meubels afstoffen",
-      "Tapijt shamponeren",
-      "Vloeren reinigen en parket boenen",
-      "Ramen wassen",
-      "Badkamer schoonmaken",
-      "Woonkamer, keuken en slaapkamers opruimen",
-      "Afwassen",
-      "Maaltijden bereiden",
-      "Strijken",
-      "Kleine occasionele naaiwerken",
-    ],
+    homeNote: "Onze huishoudhulpen voeren voor u alle gangbare huishoudelijke taken uit.",
+
     externalTitle: "Buitenactiviteiten",
     externalSubtitle: "Diensten buiten uw woning",
     external: {

@@ -72,19 +72,8 @@ export const en = {
     description: "All our housekeepers are motivated, supervised and trained beforehand before being sent alone to our clients.",
     homeTitle: "Home activities",
     homeSubtitle: "Services performed at your home",
-    homeItems: [
-      "Vacuuming the house or apartment",
-      "Dusting furniture",
-      "Shampooing carpets",
-      "Cleaning floors and waxing parquet",
-      "Washing windows",
-      "Cleaning the bathroom",
-      "Tidying the living room, kitchen and bedrooms",
-      "Doing the dishes",
-      "Preparing meals",
-      "Ironing",
-      "Small occasional sewing tasks",
-    ],
+    homeNote: "Our housekeepers carry out all common household tasks for you.",
+
     externalTitle: "External activities",
     externalSubtitle: "Services outside your home",
     external: {
