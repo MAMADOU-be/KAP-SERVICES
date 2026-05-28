@@ -1,7 +1,5 @@
 import { 
-  Sparkles, 
   Shirt, 
-  CookingPot,
   Home,
   ShoppingCart,
   Car,
