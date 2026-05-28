@@ -106,7 +106,7 @@ const faqData = {
         {
           question: "Comment suis-je prévenu(e) du remplacement ?",
           answer:
-            "Vous êtes contacté(e) par téléphone ou WhatsApp dès que nous sommes informés de l'absence de votre aide-ménager(e). Nous vous communiquons le nom de la remplaçante et confirmons l'horaire de la prestation.",
+            "Vous êtes contacté(e) par téléphone ou WhatsApp dès que nous sommes informés de l'absence de votre aide-ménager(e). Nous vous communiquons le nom du/de la remplaçant(e) et confirmons l'horaire de la prestation.",
         },
       ],
     },
