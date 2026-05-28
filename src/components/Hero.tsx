@@ -94,24 +94,6 @@ export function Hero() {
                   </div>
                 </div>
               </div>
-
-              {/* Villes animées — rapprochées en bas à droite */}
-              <div className="absolute -bottom-2 left-0 right-0 flex justify-center gap-2">
-                {[
-                  { label: "Courcelles", delay: "0s" },
-                  { label: "Lobbes", delay: "0.5s" },
-                  { label: "Mont-sur-Marchienne", delay: "1s" },
-                ].map((ville) => (
-                  <div
-                    key={ville.label}
-                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card/90 backdrop-blur-sm shadow-md border border-border animate-float"
-                    style={{ animationDelay: ville.delay }}
-                  >
-                    <MapPin className="w-3 h-3 text-accent" />
-                    <span className="text-xs font-semibold text-primary whitespace-nowrap">{ville.label}</span>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </div>
