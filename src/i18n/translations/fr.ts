@@ -137,7 +137,7 @@ export const fr = {
     pricing: {
       title: "Tarifs et quotas (03293)",
       mainPrice: "1 titre-service = 1 heure de prestation",
-      mainDetail: "Réduction d'impôt de 0,90€ par titre, sur les 150 premiers titres →",
+      mainDetail: "Réduction d'impôt sur les 150 premiers titres EN RÉGION WALLONNE →",
       mainHighlight: "coût net : 9,50€/h (10,40€ - 0,90€)",
       pluxeeLinkText: "Voir les tarifs détaillés et à jour sur Pluxee",
       pluxeeLinkUrl: "https://www.pluxee.be/fr/utilisateurs/titres-services/",
@@ -177,14 +177,14 @@ export const fr = {
       forYou: "✨ Avantages pour vous",
       forWorker: "💼 Avantages pour le travailleur",
       userItems: [
-        "Réduction d'impôt de 0,90€ par titre, sur les 150 premiers",
+        "Réduction d'impôt sur les 150 premiers EN RÉGION WALLONNE",
         "Travailleur couvert en cas d'accident",
-        "Aucun contrat requis de votre part",
+        "Travailleur déclaré à la sécurité sociale",
       ],
       workerItems: [
         "Vrai contrat de travail",
         "Protection sociale complète",
-        "Congés payés et pension",
+        "Congés payés et pension, prime de fin d'année, frais de déplacement, cotisation pour la pension",
       ],
     },
   },

@@ -132,7 +132,7 @@ export const nl = {
     pricing: {
       title: "Tarieven en quota's (03293)",
       mainPrice: "1 dienstencheque = 1 uur prestatie",
-      mainDetail: "Belastingaftrek van 0,90€ per cheque, voor de eerste 150 cheques →",
+      mainDetail: "Belastingaftrek op de eerste 150 cheques IN DE REGIO WALLONIË →",
       mainHighlight: "nettokost: 9,50€/u (10,40€ - 0,90€)",
       pluxeeLinkText: "Bekijk de actuele tarieven op Pluxee",
       pluxeeLinkUrl: "https://www.pluxee.be/nl/gebruikers/dienstencheques/",
@@ -172,14 +172,14 @@ export const nl = {
       forYou: "✨ Voordelen voor u",
       forWorker: "💼 Voordelen voor de werknemer",
       userItems: [
-        "Belastingaftrek van 0,90€ per cheque, op de eerste 150",
+        "Belastingaftrek op de eerste 150 IN DE REGIO WALLONIË",
         "Werknemer verzekerd bij ongeval",
-        "Geen contract vereist van uw kant",
+        "Werknemer aangemeld bij de sociale zekerheid",
       ],
       workerItems: [
         "Echt arbeidscontract",
         "Volledige sociale bescherming",
-        "Betaald verlof en pensioen",
+        "Betaald verlof en pensioen, eindejaarspremie, verplaatsingskosten, pensioenbijdrage",
       ],
     },
   },

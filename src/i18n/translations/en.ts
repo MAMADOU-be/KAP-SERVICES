@@ -132,7 +132,7 @@ export const en = {
     pricing: {
       title: "Rates and quotas (03293)",
       mainPrice: "1 service voucher = 1 hour of service",
-      mainDetail: "Tax deduction of €0.90 per voucher, on the first 150 vouchers →",
+      mainDetail: "Tax deduction on the first 150 vouchers IN THE WALLONIA REGION →",
       mainHighlight: "net cost: €9.50/h (€10.40 - €0.90)",
       pluxeeLinkText: "See current detailed pricing on Pluxee",
       pluxeeLinkUrl: "https://www.pluxee.be/fr/utilisateurs/titres-services/",
@@ -172,14 +172,14 @@ export const en = {
       forYou: "✨ Benefits for you",
       forWorker: "💼 Benefits for the worker",
       userItems: [
-        "Tax deduction of €0.90 per voucher, on the first 150",
+        "Tax deduction on the first 150 IN THE WALLONIA REGION",
         "Worker covered in case of accident",
-        "No contract required on your part",
+        "Worker registered with social security",
       ],
       workerItems: [
         "Real employment contract",
         "Full social protection",
-        "Paid leave and pension",
+        "Paid leave and pension, year-end bonus, travel expenses, pension contribution",
       ],
     },
   },
