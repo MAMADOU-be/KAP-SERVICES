@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone, ExternalLink } from "lucide-react";
+import { MapPin, Clock, Phone, ExternalLink, Download, FileText } from "lucide-react";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { ScrollAnimation, useStaggeredAnimation } from "@/hooks/useScrollAnimation";
@@ -124,6 +124,28 @@ export function Agencies() {
             </div>
           ))}
         </div>
+
+        <ScrollAnimation animation="fade-up" delay={200} className="mt-16">
+          <div className="max-w-3xl mx-auto rounded-2xl bg-card border border-border/50 p-6 md:p-8">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                <FileText className="w-5 h-5 text-primary" />
+              </div>
+              <h3 className="text-lg font-semibold text-foreground">Convention prestation de service à domicile</h3>
+            </div>
+            <p className="text-muted-foreground mb-6 leading-relaxed">
+              Concernant le service d'aide de nature ménagère, avant le début de notre collaboration, nous organisons systématiquement un entretien à votre domicile. Cette étape préalable indispensable nous permet de définir précisément vos attentes, d'appréhender les spécificités de votre habitation ainsi que la nature des tâches à réaliser. Ce rendez-vous est essentiel pour permettre à notre encadrante de sélectionner l'intervenant le plus qualifié pour répondre à vos besoins, en tenant compte de vos exigences techniques et de vos préférences personnelles.
+            </p>
+            <a
+              href="/contrats/convention-prestation-service-domicile-2025.docx"
+              download
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
+            >
+              <Download className="w-4 h-4" />
+              Télécharger la convention
+            </a>
+          </div>
+        </ScrollAnimation>
       </div>
     </section>
   );
