@@ -327,6 +327,7 @@ export const en = {
     privacy: "Privacy policy",
     terms: "Terms and conditions",
     employeeArea: "Employee area",
+    developedBy: "Developed by",
     copyright: "Kap-Services SRL. All rights reserved.",
   },
 

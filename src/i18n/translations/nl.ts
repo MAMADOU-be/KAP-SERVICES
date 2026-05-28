@@ -327,6 +327,7 @@ export const nl = {
     privacy: "Privacybeleid",
     terms: "Algemene voorwaarden",
     employeeArea: "Werknemerszone",
+    developedBy: "Ontwikkeld door",
     copyright: "Kap-Services BV. Alle rechten voorbehouden.",
   },
 
