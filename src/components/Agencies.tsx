@@ -106,6 +106,12 @@ export function Agencies() {
                       <p className="font-medium text-foreground">{agency.address}</p>
                       <p>{agency.postalCode}</p>
                       {agency.noteKey && <p className="text-sm italic mt-1">dans le petit zoning</p>}
+                      {agency.secondaryAddress && (
+                        <div className="mt-3 pt-3 border-t border-border/50">
+                          <p className="font-medium text-foreground text-sm">{agency.secondaryAddress}</p>
+                          {agency.secondaryPostalCode && <p className="text-sm text-muted-foreground">{agency.secondaryPostalCode}</p>}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
