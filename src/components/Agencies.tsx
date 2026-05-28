@@ -149,21 +149,6 @@ export function Agencies() {
           ))}
         </div>
 
-        <ScrollAnimation animation="fade-up" delay={100} className="mt-12">
-          <div className="max-w-2xl mx-auto rounded-2xl bg-primary/5 border border-primary/20 p-6 md:p-8">
-            <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-5 h-5 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold text-foreground">{t.agencies.centralIroningAddress}</h3>
-                <p className="text-muted-foreground mt-1">Rue des Rèwes 31, 4420 Saint-Nicolas</p>
-              </div>
-            </div>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animation="fade-up" delay={200} className="mt-16">
           <div className="max-w-3xl mx-auto rounded-2xl bg-card border border-border/50 p-6 md:p-8">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
