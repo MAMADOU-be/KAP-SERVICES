@@ -1,7 +1,7 @@
 import { 
-  CreditCard, 
+  Phone, 
+  Home, 
   UserCheck, 
-  CalendarCheck, 
   Euro,
   ExternalLink,
   FileText,
