@@ -111,7 +111,7 @@ export const nl = {
       scaleSubtitle: "(1 punt = 1 minuut strijken)",
       article: "Artikel",
       points: "Punten",
-      scaleNote: "* Deze schaal is indicatief. 1 dienstencheque komt overeen met 60 punten (1u strijken).",
+      scaleNote: "* Deze schaal is indicatief en niet exhaustief. 1 dienstencheque komt overeen met 60 punten (1u strijken).",
     },
     guarantees: {
       same: "Dezelfde huishoudhulp bij elke prestatie",
