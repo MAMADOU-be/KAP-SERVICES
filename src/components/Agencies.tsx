@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone, ExternalLink } from "lucide-react";
+import { MapPin, Clock, Phone, ExternalLink, Download, FileText } from "lucide-react";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { ScrollAnimation, useStaggeredAnimation } from "@/hooks/useScrollAnimation";

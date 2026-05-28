@@ -155,30 +155,20 @@ export function IroningRegistrationForm() {
 
         <ScrollAnimation animation="fade-up" delay={100}>
           <div className="max-w-3xl mx-auto bg-card rounded-2xl border border-border/50 p-6 md:p-8">
-            {/* Contract download links */}
+            {/* Contract download link */}
             <div className="flex flex-col sm:flex-row gap-3 mb-8 p-4 rounded-xl bg-secondary/40 border border-border/50">
               <div className="text-sm text-muted-foreground mb-2 sm:mb-0 sm:mr-auto flex items-center gap-2">
                 <Download className="w-4 h-4" />
-                <span>Télécharger les contrats :</span>
+                <span>Télécharger le contrat :</span>
               </div>
-              <div className="flex flex-col sm:flex-row gap-2">
-                <a
-                  href="/contrats/convention-repassage-2025.docx"
-                  download
-                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
-                >
-                  <Download className="w-3.5 h-3.5" />
-                  Convention repassage
-                </a>
-                <a
-                  href="/contrats/convention-prestation-service-domicile-2025.docx"
-                  download
-                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
-                >
-                  <Download className="w-3.5 h-3.5" />
-                  Convention prestation de service à domicile
-                </a>
-              </div>
+              <a
+                href="/contrats/convention-repassage-2025.docx"
+                download
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 transition-colors"
+              >
+                <Download className="w-3.5 h-3.5" />
+                Convention repassage
+              </a>
             </div>
 
             <Form {...form}>
