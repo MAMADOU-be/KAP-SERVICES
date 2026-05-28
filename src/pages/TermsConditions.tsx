@@ -33,8 +33,9 @@ const TermsConditions = () => {
           <section>
             <h2 className="text-xl font-semibold text-foreground">Article 2 – Services</h2>
             <p>
-              Kap-Services SRL propose des services d'aide-ménager(e) à domicile et de repassage en 
-              atelier dans le cadre du système des titres-services agréé par la Région Wallonne.
+            <p>
+              Kap-Services SRL propose des services d'aide-ménager(e) à domicile et de repassage en
+              atelier dans le cadre du système des titres-services agréé (n° 03293).
             </p>
           </section>
 
