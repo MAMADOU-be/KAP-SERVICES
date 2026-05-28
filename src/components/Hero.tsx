@@ -67,8 +67,9 @@ export function Hero() {
             <div className="flex flex-wrap gap-2 pt-2">
               {[
                 { label: "Courcelles", delay: "0s" },
-                { label: "Lobbes", delay: "0.5s" },
-                { label: "Mont-sur-Marchienne", delay: "1s" },
+                { label: "Lobbes", delay: "0.4s" },
+                { label: "Grace Hollogne", delay: "0.8s" },
+                { label: "Mont-sur-Marchienne", delay: "1.2s" },
               ].map((ville) => (
                 <div
                   key={ville.label}
