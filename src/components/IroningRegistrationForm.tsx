@@ -88,8 +88,7 @@ export function IroningRegistrationForm() {
     },
   });
 
-    }
-  }, [user, profile, form]);
+
 
   // Scroll to first error on validation failure
   useEffect(() => {
