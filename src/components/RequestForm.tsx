@@ -105,7 +105,7 @@ export function RequestForm() {
         .map((id) => t.requestForm.days[id as keyof typeof t.requestForm.days])
         .join(", ");
 
-      const bodyLines = [
+      const messageBody = [
         `Nom : ${data.nom}`,
         `Prénom : ${data.prenom}`,
         `Adresse : ${data.rue} ${data.numero}, ${data.codePostal} ${data.localite}`,
@@ -119,21 +119,27 @@ export function RequestForm() {
         ``,
         `Message :`,
         data.message || "(aucun)",
-      ].filter(Boolean);
+      ].filter(Boolean).join("\n");
 
-      const subject = `Nouvelle demande de service - ${data.prenom} ${data.nom}`;
-      const mailto = `mailto:info@kap-services.be?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+      // Envoi via FormSubmit.co - service gratuit, sans compte, sans clé API
+      // Le premier envoi déclenche un email de confirmation à info@kap-services.be
+      const formData = new FormData();
+      formData.append("name", `${data.prenom} ${data.nom}`);
+      formData.append("email", data.email);
+      formData.append("_subject", `Nouvelle demande de service - ${data.prenom} ${data.nom}`);
+      formData.append("_template", "table");
+      formData.append("_captcha", "false");
+      formData.append("message", messageBody);
 
-      // Méthode robuste : créer un lien et le cliquer (fonctionne en iframe et navigateur classique)
-      const link = document.createElement("a");
-      link.href = mailto;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      const response = await fetch("https://formsubmit.co/ajax/info@kap-services.be", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error("Échec de l'envoi");
+      }
 
       setIsSubmitted(true);
       setTimeout(() => {
@@ -147,12 +153,13 @@ export function RequestForm() {
       toast({
         variant: "destructive",
         title: "Erreur",
-        description: "Une erreur est survenue. Veuillez réessayer.",
+        description: "Une erreur est survenue. Veuillez réessayer ou nous appeler au 071 45 57 45.",
       });
     } finally {
       setIsSubmitting(false);
     }
   };
+
   if (isSubmitted) {
     return (
       <section id="demande" className="section-padding bg-secondary/30">
