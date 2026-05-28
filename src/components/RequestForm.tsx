@@ -126,7 +126,14 @@ export function RequestForm() {
         subject
       )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
 
-      window.location.href = mailto;
+      // Méthode robuste : créer un lien et le cliquer (fonctionne en iframe et navigateur classique)
+      const link = document.createElement("a");
+      link.href = mailto;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
 
       setIsSubmitted(true);
       setTimeout(() => {
