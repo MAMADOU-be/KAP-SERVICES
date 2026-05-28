@@ -18,7 +18,7 @@ export const nl = {
 
   hero: {
     badge: "Erkend dienstenchequebedrijf",
-    title: "Huishoudelijke hulp & strijken,",
+    title: "Huishoudhulp- en strijkdienst,",
     titleHighlight: "tot uw dienst",
     description: "Kap Services is uw erkend dienstenchequebedrijf in België. Onze huishoudhulpen zorgen voor een volledig onderhoud van uw woning: schoonmaak, strijken, organisatie. Profiteer van dienstencheques vanaf",
     priceHighlight: "9,50€/u na belastingaftrek",
