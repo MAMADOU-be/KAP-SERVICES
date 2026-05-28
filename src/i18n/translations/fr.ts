@@ -119,8 +119,8 @@ export const fr = {
     },
     guarantees: {
       same: "Même aide-ménagère à chaque prestation",
-      replacement: "Remplacement garanti en cas de maladie",
-      supervisors: "Encadrantes disponibles pour toute question",
+      replacement: "Nous nous efforçons de vous assurer un remplacement en cas d'absence dans la limite de nos disponibilités",
+      supervisors: "Encadrantes disponibles pour toutes questions",
     },
   },
 
