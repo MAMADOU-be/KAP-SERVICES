@@ -18,7 +18,7 @@ export const en = {
 
   hero: {
     badge: "Approved service voucher company",
-    title: "Housekeeping & ironing,",
+    title: "Domestic help & ironing service,",
     titleHighlight: "at your service",
     description: "Kap Services is your trusted service voucher company in Belgium. Our housekeepers provide complete home maintenance: cleaning, ironing, organisation. Take advantage of service vouchers from",
     priceHighlight: "€9.50/h after tax deduction",
