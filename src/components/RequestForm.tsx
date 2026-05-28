@@ -94,55 +94,59 @@ export function RequestForm() {
   const [honeypot, setHoneypot] = useState("");
 
   const onSubmit = async (data: FormData) => {
+  const onSubmit = async (data: FormData) => {
     if (honeypot) {
       setIsSubmitted(true);
       return;
     }
     setIsSubmitting(true);
-    
-    try {
-      const { data: result, error } = await supabase.functions.invoke('submit-service-request', {
-        body: {
-          first_name: data.prenom,
-          last_name: data.nom,
-          email: data.email,
-          phone: data.telephone,
-          street: `${data.rue} ${data.numero}`,
-          city: data.localite,
-          postal_code: data.codePostal,
-          service_type: data.inscritPluxee === 'oui' ? `Pluxee: ${data.numeroPluxee || 'N/A'}` : 'Standard',
-          frequency: `${data.heuresParSemaine}h/semaine`,
-          preferred_day: data.joursPreference.join(', '),
-          comments: data.message || null,
-          website: honeypot,
-        },
-      });
 
-      if (error) throw error;
-      if (result?.error) throw new Error(result.error);
+    try {
+      const joursLabels = data.joursPreference
+        .map((id) => t.requestForm.days[id as keyof typeof t.requestForm.days])
+        .join(", ");
+
+      const bodyLines = [
+        `Nom : ${data.nom}`,
+        `Prénom : ${data.prenom}`,
+        `Adresse : ${data.rue} ${data.numero}, ${data.codePostal} ${data.localite}`,
+        `Téléphone : ${data.telephone}`,
+        `Email : ${data.email}`,
+        ``,
+        `Inscrit Pluxee : ${data.inscritPluxee === "oui" ? "Oui" : "Non"}`,
+        data.inscritPluxee === "oui" ? `N° Pluxee : ${data.numeroPluxee || "N/A"}` : "",
+        `Heures par semaine : ${data.heuresParSemaine}`,
+        `Jours préférés : ${joursLabels}`,
+        ``,
+        `Message :`,
+        data.message || "(aucun)",
+      ].filter(Boolean);
+
+      const subject = `Nouvelle demande de service - ${data.prenom} ${data.nom}`;
+      const mailto = `mailto:info@kap-services.be?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+
+      window.location.href = mailto;
 
       setIsSubmitted(true);
       setTimeout(() => {
-        document.getElementById('demande')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        document.getElementById("demande")?.scrollIntoView({ behavior: "smooth", block: "center" });
       }, 100);
       toast({
         title: t.requestForm.successTitle,
         description: t.requestForm.successDescription,
       });
     } catch (error) {
-      const message = error instanceof Error && error.message.includes('Trop de demandes')
-        ? error.message
-        : "Une erreur est survenue. Veuillez réessayer.";
       toast({
         variant: "destructive",
         title: "Erreur",
-        description: message,
+        description: "Une erreur est survenue. Veuillez réessayer.",
       });
     } finally {
       setIsSubmitting(false);
     }
   };
-
   if (isSubmitted) {
     return (
       <section id="demande" className="section-padding bg-secondary/30">
