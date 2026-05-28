@@ -115,8 +115,8 @@ export const en = {
     },
     guarantees: {
       same: "Same housekeeper at every appointment",
-      replacement: "Guaranteed replacement in case of illness",
-      supervisors: "Supervisors available for any question",
+      replacement: "We endeavour to ensure you a replacement in case of absence within the limits of our availability",
+      supervisors: "Supervisors available for all questions",
     },
   },
 

@@ -115,8 +115,8 @@ export const nl = {
     },
     guarantees: {
       same: "Dezelfde huishoudhulp bij elke prestatie",
-      replacement: "Gegarandeerde vervanging bij ziekte",
-      supervisors: "Begeleidsters beschikbaar voor elke vraag",
+      replacement: "Wij streven ernaar u een vervanging te garanderen bij afwezigheid binnen de grenzen van onze beschikbaarheid",
+      supervisors: "Begeleidsters beschikbaar voor alle vragen",
     },
   },
 
