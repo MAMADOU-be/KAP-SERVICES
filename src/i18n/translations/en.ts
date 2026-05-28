@@ -39,7 +39,7 @@ export const en = {
       t2008: { title: "Foundation", description: "Birth of Kap-Services SPRL, continuing the founding member's activities." },
       t2012: { title: "Expansion", description: "Purchase of the administrative headquarters building and office expansion." },
       t2020: { title: "Evolution", description: "Kap-Services SPRL becomes Kap-Services SRL." },
-      today: { year: "Today", title: "100+ employees", description: "A solid team dedicated to your daily comfort." },
+      today: { year: "Today", title: "A growing team", description: "Our employees are committed to your daily well-being." },
     },
     values: {
       team: { title: "Supervision team", description: "Our \"Supervisors\" continuously oversee and train our housekeepers." },
@@ -49,7 +49,7 @@ export const en = {
     },
     teamGallery: {
       title: "Our team at your service",
-      description: "Dedicated supervisors who ensure the quality of our services every day.",
+      description: "A dedicated supervision team who ensure the quality of our services every day.",
     },
     certification: {
       badge: "Testimonial & certification",

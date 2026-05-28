@@ -42,7 +42,7 @@ export const fr = {
       t2008: { title: "Création", description: "Naissance de Kap-Services SPRL, continuité de l'activité du membre fondateur." },
       t2012: { title: "Expansion", description: "Achat du bâtiment du siège administratif et agrandissement des bureaux." },
       t2020: { title: "Évolution", description: "Kap-Services SPRL devient Kap-Services SRL." },
-      today: { year: "Aujourd'hui", title: "100+ employés", description: "Une équipe solide au service de votre confort quotidien." },
+      today: { year: "Aujourd'hui", title: "Une équipe en pleine croissance", description: "Nos collaborateurs s'engagent pour votre bien être quotidien." },
     },
     values: {
       team: { title: "Équipe d'encadrement", description: "Nos \"Encadrant(e)s\" supervisent et forment continuellement nos aides-ménager(e)s." },
@@ -52,7 +52,7 @@ export const fr = {
     },
     teamGallery: {
       title: "Notre équipe à votre service",
-      description: "Des encadrant(e)s dévouées qui veillent à la qualité de nos prestations au quotidien.",
+      description: "Une équipe d'encadrements dévouées qui veillent à la qualité de nos prestations au quotidien.",
     },
     certification: {
       badge: "Témoignage & certification",

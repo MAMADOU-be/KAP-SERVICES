@@ -39,7 +39,7 @@ export const nl = {
       t2008: { title: "Oprichting", description: "Oprichting van Kap-Services BVBA, voortzetting van de activiteiten van het stichtend lid." },
       t2012: { title: "Uitbreiding", description: "Aankoop van het gebouw van het administratief hoofdkantoor en uitbreiding van de kantoren." },
       t2020: { title: "Evolutie", description: "Kap-Services BVBA wordt Kap-Services BV." },
-      today: { year: "Vandaag", title: "100+ werknemers", description: "Een sterk team ten dienste van uw dagelijks comfort." },
+      today: { year: "Vandaag", title: "Een groeiend team", description: "Onze medewerkers zetten zich in voor uw dagelijks welzijn." },
     },
     values: {
       team: { title: "Begeleidingsteam", description: "Onze \"Begeleidsters\" begeleiden en vormen voortdurend onze huishoudhulpen." },
@@ -49,7 +49,7 @@ export const nl = {
     },
     teamGallery: {
       title: "Ons team staat voor u klaar",
-      description: "Toegewijde teamleiders die dagelijks waken over de kwaliteit van onze diensten.",
+      description: "Een toegewijd begeleidingsteam die dagelijks waken over de kwaliteit van onze diensten.",
     },
     certification: {
       badge: "Getuigenis & certificering",
