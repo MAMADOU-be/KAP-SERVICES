@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { LogIn, LogOut, UserCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useAuth } from "@/hooks/useAuth";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -11,10 +8,9 @@ import logoKap from "@/assets/logo-kap.jpeg";
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const { user, signOut } = useAuth();
-  const navigate = useNavigate();
   const activeSection = useActiveSection();
   const { t } = useLanguage();
+
 
   const navLinks = [
     { href: "#accueil", label: t.nav.home },
@@ -39,10 +35,8 @@ export function Header() {
     return () => { document.body.style.overflow = ''; };
   }, [isOpen]);
 
-  const handleLogout = async () => {
-    await signOut();
-    navigate('/');
-  };
+
+
 
   const handleNavClick = (href: string) => {
     setIsOpen(false);
@@ -92,31 +86,11 @@ export function Header() {
             {/* CTA */}
             <div className="hidden md:flex items-center gap-2">
               <LanguageSwitcher variant="header" />
-              {user ? (
-                <>
-                  <Button asChild variant="outline" size="sm" className="transition-all duration-300 hover:scale-105">
-                    <Link to="/profile">
-                      <UserCircle className="w-4 h-4 mr-1.5" />
-                      {t.nav.myAccount}
-                    </Link>
-                  </Button>
-                  <Button variant="ghost" size="sm" onClick={handleLogout} className="text-muted-foreground hover:text-destructive">
-                    <LogOut className="w-4 h-4 mr-1.5" />
-                    {t.nav.logout}
-                  </Button>
-                </>
-              ) : (
-                <Button asChild variant="outline" size="sm" className="transition-all duration-300 hover:scale-105">
-                  <Link to="/auth">
-                    <LogIn className="w-4 h-4 mr-1.5" />
-                    {t.nav.login}
-                  </Link>
-                </Button>
-              )}
               <Button asChild size="sm" className="btn-accent border-0 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                 <a href="#demande" onClick={(e) => { e.preventDefault(); handleNavClick('#demande'); }}>{t.nav.requestQuote}</a>
               </Button>
             </div>
+
 
             {/* Mobile Menu Button */}
             <button
@@ -196,31 +170,11 @@ export function Header() {
                 transform: isOpen ? 'translateY(0)' : 'translateY(12px)',
               }}
             >
-              {user ? (
-                <>
-                  <Button asChild variant="outline">
-                    <Link to="/profile" onClick={() => setIsOpen(false)}>
-                      <UserCircle className="w-4 h-4 mr-2" />
-                      {t.nav.myAccount}
-                    </Link>
-                  </Button>
-                  <Button variant="ghost" className="text-muted-foreground" onClick={() => { handleLogout(); setIsOpen(false); }}>
-                    <LogOut className="w-4 h-4 mr-2" />
-                    {t.nav.logout}
-                  </Button>
-                </>
-              ) : (
-                <Button asChild variant="outline">
-                  <Link to="/auth" onClick={() => setIsOpen(false)}>
-                    <LogIn className="w-4 h-4 mr-2" />
-                    {t.nav.login}
-                  </Link>
-                </Button>
-              )}
               <Button asChild className="btn-accent border-0 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                 <a href="#demande" onClick={(e) => { e.preventDefault(); handleNavClick('#demande'); }}>{t.nav.requestQuote}</a>
               </Button>
             </div>
+
           </div>
         </nav>
       </div>

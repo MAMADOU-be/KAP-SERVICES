@@ -25,8 +25,8 @@ import {
 } from "@/components/ui/form";
 import { toast } from "sonner";
 import { Shirt, FileSignature, ListChecks, User, Download, AlertCircle } from "lucide-react";
-import { useAuth } from "@/hooks/useAuth";
-import { useProfile } from "@/hooks/useProfile";
+
+
 
 const formSchema = z.object({
   firstName: z.string().trim().min(1, "Prénom requis").max(100),
@@ -71,8 +71,7 @@ export function IroningRegistrationForm() {
   const [signature, setSignature] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const { user } = useAuth();
-  const { profile } = useProfile();
+
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -92,27 +91,7 @@ export function IroningRegistrationForm() {
     },
   });
 
-  // Pre-fill form with user profile data when available
-  useEffect(() => {
-    if (user && profile) {
-      const nameParts = (profile.display_name || "").split(" ");
-      const firstName = nameParts[0] || "";
-      const lastName = nameParts.slice(1).join(" ") || "";
 
-      if (firstName && !form.getValues("firstName")) {
-        form.setValue("firstName", firstName);
-      }
-      if (lastName && !form.getValues("lastName")) {
-        form.setValue("lastName", lastName);
-      }
-      if (user.email && !form.getValues("email")) {
-        form.setValue("email", user.email);
-      }
-      if (profile.phone && !form.getValues("phone")) {
-        form.setValue("phone", profile.phone);
-      }
-    }
-  }, [user, profile, form]);
 
   // Scroll to first error on validation failure
   useEffect(() => {
