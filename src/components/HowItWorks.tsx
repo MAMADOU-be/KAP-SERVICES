@@ -154,6 +154,14 @@ export function HowItWorks() {
                   <p className="font-semibold text-foreground mb-1">{t.howItWorks.pricing.mainPrice}</p>
                   <p className="text-sm">{t.howItWorks.pricing.mainDetail} <strong className="text-primary">{t.howItWorks.pricing.mainHighlight}</strong></p>
                 </div>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div className="p-4 rounded-lg bg-secondary/50">
+                    <h4 className="font-semibold text-foreground">{t.howItWorks.pricing.individual}</h4>
+                  </div>
+                  <div className="p-4 rounded-lg bg-secondary/50">
+                    <h4 className="font-semibold text-foreground">{t.howItWorks.pricing.household}</h4>
+                  </div>
+                </div>
                 <a
                   href={t.howItWorks.pricing.pluxeeLinkUrl}
                   target="_blank"
