@@ -439,7 +439,7 @@ export function IroningRegistrationForm() {
                     validation.
                   </p>
 
-                  <SignatureCanvas onSignatureChange={setSignature} />
+                  <SignatureCanvas key={signatureKey} onSignatureChange={setSignature} />
 
                   {!signature && form.formState.isSubmitted && (
                     <p className="text-sm text-destructive mt-2">
