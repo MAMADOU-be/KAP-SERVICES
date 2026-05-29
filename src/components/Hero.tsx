@@ -63,8 +63,8 @@ export function Hero() {
               </div>
             </div>
 
-            {/* Villes animées — visibles sur tous les écrans */}
-            <div className="flex flex-wrap gap-2 pt-2">
+            {/* Villes animées — uniquement mobile/tablette (sur desktop elles entourent le cercle) */}
+            <div className="flex flex-wrap gap-2 pt-2 lg:hidden">
               {[
                 { label: "Courcelles", delay: "0s" },
                 { label: "Lobbes", delay: "0.4s" },
@@ -87,7 +87,7 @@ export function Hero() {
             <div className="relative w-full aspect-square">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-transparent animate-float" />
               <div className="absolute inset-8 rounded-full bg-gradient-to-tr from-accent/20 to-transparent animate-float" style={{ animationDelay: "1s" }} />
-              
+
               <div className="absolute inset-16 rounded-3xl bg-card shadow-lg overflow-hidden border border-border">
                 <div className="absolute inset-1 bg-gradient-to-br from-primary/5 to-accent/5" />
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -100,6 +100,23 @@ export function Hero() {
                   </div>
                 </div>
               </div>
+
+              {/* Villes flottantes disposées autour du grand cercle */}
+              {[
+                { label: "Courcelles", delay: "0s", className: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" },
+                { label: "Grace Hollogne", delay: "0.4s", className: "top-1/2 right-0 translate-x-1/4 -translate-y-1/2" },
+                { label: "Mont-sur-Marchienne", delay: "0.8s", className: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2" },
+                { label: "Lobbes", delay: "1.2s", className: "top-1/2 left-0 -translate-x-1/4 -translate-y-1/2" },
+              ].map((ville) => (
+                <div
+                  key={ville.label}
+                  className={`absolute inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card/90 backdrop-blur-md shadow-md border border-primary/20 animate-float z-10 ${ville.className}`}
+                  style={{ animationDelay: ville.delay }}
+                >
+                  <MapPin className="w-3.5 h-3.5 text-accent" />
+                  <span className="text-xs font-semibold text-primary whitespace-nowrap">{ville.label}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
