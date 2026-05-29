@@ -124,14 +124,11 @@ export function IroningRegistrationForm() {
       toast.success(
         "Inscription repassage envoyée ! Nous vous contacterons sous 48h."
       );
-      // Only reset desiderata + signature, keep personal info
-      form.setValue("agency", "");
-      form.setValue("foldingPreference", "");
-      form.setValue("starchPreference", "");
-      form.setValue("specialCare", "");
-      form.setValue("fragileItems", "");
-      form.setValue("acceptTerms", false as any);
+      // Reset complet du formulaire (coordonnées + préférences + conditions)
+      form.reset();
+      // Force le remontage du canvas pour vider visuellement la signature
       setSignature(null);
+      setSignatureKey((k) => k + 1);
       setIsSuccess(true);
     } catch {
       toast.error("Erreur lors de l'envoi. Veuillez réessayer.");
