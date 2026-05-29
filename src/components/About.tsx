@@ -124,8 +124,8 @@ export function About() {
 
         <div ref={valuesRef} className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {values.map((value, index) => (
-            <div key={value.title} className="bg-card rounded-2xl p-6 card-hover text-center" style={getStaggeredStyle(index)}>
-              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
+            <div key={value.title} className="group bg-card rounded-2xl p-6 card-hover text-center" style={getStaggeredStyle(index)}>
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4 transition-all duration-500 group-hover:bg-primary/20 group-hover:scale-110 group-hover:-rotate-6">
                 <value.icon className="w-7 h-7 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">{value.title}</h3>

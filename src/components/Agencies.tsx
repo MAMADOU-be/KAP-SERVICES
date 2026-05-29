@@ -89,10 +89,11 @@ export function Agencies() {
 
         <div ref={agenciesRef} className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
           {agenciesData.map((agency, index) => (
-            <div key={agency.name} className="rounded-2xl bg-card card-hover border border-border/50 overflow-hidden" style={getAgencyStyle(index)}>
-              <div className="bg-primary p-6">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-primary-foreground/20 flex items-center justify-center">
+            <div key={agency.name} className="group rounded-2xl bg-card card-hover border border-border/50 overflow-hidden" style={getAgencyStyle(index)}>
+              <div className="relative bg-primary p-6 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary to-[hsl(var(--teal-dark))] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="relative flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-primary-foreground/20 flex items-center justify-center transition-transform duration-500 group-hover:scale-110 group-hover:rotate-[-6deg]">
                     <MapPin className="w-5 h-5 text-primary-foreground" />
                   </div>
                   <h3 className="text-xl font-semibold text-primary-foreground">{agency.name}</h3>
