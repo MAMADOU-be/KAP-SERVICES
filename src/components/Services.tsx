@@ -94,10 +94,10 @@ export function Services() {
             {externalServices.map((service, index) => (
               <div
                 key={service.title}
-                className="p-6 rounded-2xl bg-card border border-border/50 card-hover"
+                className="group p-6 rounded-2xl bg-card border border-border/50 card-hover"
                 style={getExternalStyle(index)}
               >
-                <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-4">
+                <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-4 transition-all duration-500 group-hover:bg-accent/20 group-hover:scale-110 group-hover:rotate-[-6deg]">
                   <service.icon className="w-6 h-6 text-accent" />
                 </div>
                 <h4 className="font-semibold text-foreground mb-2">{service.title}</h4>
