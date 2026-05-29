@@ -6,10 +6,10 @@ export function Hero() {
   const { t } = useLanguage();
 
   return (
-    <section id="accueil" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-secondary via-background to-background" />
+    <section id="accueil" className="relative min-h-screen flex items-center pt-20 overflow-hidden aurora-bg">
+      <div className="absolute inset-0 bg-gradient-to-br from-secondary via-background to-background -z-10" />
       <div 
-        className="absolute top-20 right-0 w-1/2 h-1/2 rounded-full opacity-30"
+        className="absolute top-20 right-0 w-1/2 h-1/2 rounded-full opacity-30 animate-float-slow"
         style={{ background: "radial-gradient(circle, hsl(175 65% 40% / 0.2) 0%, transparent 70%)" }}
       />
       
