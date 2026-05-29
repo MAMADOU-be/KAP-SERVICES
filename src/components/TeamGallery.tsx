@@ -5,6 +5,10 @@ import encadrante1Work from "@/assets/team/encadrante-1-work.jpeg";
 import encadrante2Desk from "@/assets/team/encadrante-2-desk.jpeg";
 import encadrante2Work from "@/assets/team/encadrante-2-work.jpeg";
 import encadrante2Ironing from "@/assets/team/encadrante-2-ironing.jpeg";
+import encadrante3Atelier from "@/assets/team/encadrante-3-atelier.jpeg";
+import encadrante4Repassage from "@/assets/team/encadrante-4-repassage.jpeg";
+import encadrante5Accueil from "@/assets/team/encadrante-5-accueil.jpeg";
+import encadrante6Bureau from "@/assets/team/encadrante-6-bureau.jpeg";
 
 const teamImages = [
   { src: encadrante1, alt: "Encadrante Kap Services au bureau" },
@@ -12,6 +16,10 @@ const teamImages = [
   { src: encadrante1Work, alt: "Encadrante Kap Services au repassage" },
   { src: encadrante2Ironing, alt: "Repassage professionnel Kap Services" },
   { src: encadrante2Work, alt: "Encadrante Kap Services en action" },
+  { src: encadrante3Atelier, alt: "Équipe Kap Services dans l'atelier de repassage" },
+  { src: encadrante4Repassage, alt: "Repassage de précision à l'atelier Kap Services" },
+  { src: encadrante5Accueil, alt: "Accueil clientèle à l'agence Kap Services" },
+  { src: encadrante6Bureau, alt: "Encadrante Kap Services au bureau administratif" },
 ];
 
 export function TeamGallery() {
