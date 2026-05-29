@@ -154,25 +154,6 @@ export function HowItWorks() {
                   <p className="font-semibold text-foreground mb-1">{t.howItWorks.pricing.mainPrice}</p>
                   <p className="text-sm">{t.howItWorks.pricing.mainDetail} <strong className="text-primary">{t.howItWorks.pricing.mainHighlight}</strong></p>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4 text-sm">
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-2">{t.howItWorks.pricing.individual}</h4>
-                    <ul className="space-y-1">
-                      <li>• 1-175 titres : 10,40€</li>
-                      <li>• 176-400 titres : 11,40€</li>
-                      <li>• 401-500 titres : 12,40€</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-2">{t.howItWorks.pricing.household}</h4>
-                    <ul className="space-y-1">
-                      <li>• 1-350 titres : 10,40€</li>
-                      <li>• 351-800 titres : 11,40€</li>
-                      <li>• 801-1000 titres : 12,40€</li>
-                    </ul>
-                  </div>
-                </div>
-                <p className="text-sm"><strong>{t.howItWorks.pricing.validity}</strong> {t.howItWorks.pricing.validityValue} • <strong>{t.howItWorks.pricing.minOrder}</strong> {t.howItWorks.pricing.minOrderValue}</p>
                 <a
                   href={t.howItWorks.pricing.pluxeeLinkUrl}
                   target="_blank"
