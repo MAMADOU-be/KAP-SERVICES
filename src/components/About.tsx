@@ -58,9 +58,11 @@ export function About() {
             </div>
           </div>
         </ScrollAnimation>
+      </div>
 
-        <TeamGallery />
+      <TeamGallery />
 
+      <div className="container-narrow mx-auto">
         {/* Certification & témoignage */}
         <ScrollAnimation animation="fade-up" delay={150} className="mb-16">
           <div className="grid lg:grid-cols-2 gap-8 items-center bg-card rounded-2xl border border-border/50 p-6 md:p-8">
