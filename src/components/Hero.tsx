@@ -26,12 +26,12 @@ export function Hero() {
               <span className="text-shimmer">{t.hero.titleHighlight}</span>
             </h1>
 
-            <p className="text-lg text-muted-foreground max-w-lg whitespace-pre-line">
+            <p className="font-serif italic text-xl md:text-2xl text-foreground/80 max-w-xl leading-relaxed whitespace-pre-line">
               {t.hero.description}
               {t.hero.priceHighlight && (
                 <>
                   {" "}
-                  <strong className="text-foreground">{t.hero.priceHighlight}</strong>.
+                  <strong className="font-sans font-semibold not-italic text-foreground">{t.hero.priceHighlight}</strong>.
                 </>
               )}
             </p>
