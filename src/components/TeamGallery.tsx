@@ -7,11 +7,11 @@ import encadrante2Work from "@/assets/team/encadrante-2-work.jpeg";
 import encadrante2Ironing from "@/assets/team/encadrante-2-ironing.jpeg";
 
 const teamImages = [
-  { src: encadrante1, alt: "Encadrante Kap Services au bureau", span: "md:col-span-1 md:row-span-2" },
-  { src: encadrante2Desk, alt: "Encadrante Kap Services à l'accueil", span: "md:col-span-1 md:row-span-1" },
-  { src: encadrante1Work, alt: "Encadrante Kap Services au repassage", span: "md:col-span-1 md:row-span-1" },
-  { src: encadrante2Ironing, alt: "Repassage professionnel Kap Services", span: "md:col-span-1 md:row-span-2" },
-  { src: encadrante2Work, alt: "Encadrante Kap Services en action", span: "md:col-span-1 md:row-span-1" },
+  { src: encadrante1, alt: "Encadrante Kap Services au bureau" },
+  { src: encadrante2Desk, alt: "Encadrante Kap Services à l'accueil" },
+  { src: encadrante1Work, alt: "Encadrante Kap Services au repassage" },
+  { src: encadrante2Ironing, alt: "Repassage professionnel Kap Services" },
+  { src: encadrante2Work, alt: "Encadrante Kap Services en action" },
 ];
 
 export function TeamGallery() {
@@ -28,17 +28,17 @@ export function TeamGallery() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 auto-rows-[180px] md:auto-rows-[220px]">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
         {teamImages.map((img, index) => (
           <div
             key={index}
-            className={`${img.span} rounded-2xl overflow-hidden group relative`}
+            className="rounded-2xl overflow-hidden group relative aspect-[3/4] bg-muted shadow-sm"
           >
             <img
               src={img.src}
               alt={img.alt}
               loading="lazy"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
