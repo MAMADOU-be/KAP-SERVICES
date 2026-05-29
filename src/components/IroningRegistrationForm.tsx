@@ -70,6 +70,7 @@ const starchOptions = [
 
 export function IroningRegistrationForm() {
   const [signature, setSignature] = useState<string | null>(null);
+  const [signatureKey, setSignatureKey] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
@@ -89,6 +90,7 @@ export function IroningRegistrationForm() {
       starchPreference: "",
       specialCare: "",
       fragileItems: "",
+      acceptTerms: false as unknown as true,
     },
   });
 
